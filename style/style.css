@@ -193,7 +193,7 @@ footer a:visited{
 .section_un{
 /*	border: 2px solid purple;*/
 	width: 100vw;
-	height: 345vh;
+	height: 285vh;
 	padding-top: 200px;
 	padding-bottom: 80px;
 
@@ -236,6 +236,34 @@ footer a:visited{
 
 .page-experimentation figure img{
 	display: inline-block;
+	margin: 50px auto 50px auto;
+}
+
+#exp-one{
+	position: relative;
+	bottom: 0px;
+}
+
+#exp-two{
+	position: relative;
+	bottom: 50px;
+}
+
+#exp-tree{
+	position: relative;
+	
+}
+
+#exp-four{
+	position: relative;
+	bottom: 70px;
+	transform: rotate(4deg);
+}
+
+#exp-five{
+	position: relative;
+	right: 400px;
+
 }
 
 /*page blindtest */
