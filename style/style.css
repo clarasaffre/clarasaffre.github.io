@@ -84,7 +84,6 @@ header #insta:hover hr{
 section{
 /*	border: 2px solid purple;*/
 	width: 100vw;
-	height: 76.8vh;
 	padding-top: 200px;
 	display: flex;
 }
@@ -172,13 +171,15 @@ article{
 /*partie footer*/
 footer{
 /*	border: solid orange 2px;*/
-	position: relative;
-	bottom: 20px;
 /*	width: 100vw;*/
 	margin: auto;	
 	width: 700px;
 	text-align: center;	
 	font-family: 'paysage';
+	color: grey;
+}
+
+footer a{
 	color: grey;
 }
 
@@ -193,7 +194,6 @@ footer a:visited{
 .section_un{
 /*	border: 2px solid purple;*/
 	width: 100vw;
-	height: 285vh;
 	padding-top: 200px;
 	padding-bottom: 80px;
 
@@ -273,7 +273,6 @@ footer a:visited{
 .section_deux{
 /*	border: 2px solid purple;*/
 	width: 100vw;
-	height: 265vh;
 	padding-top: 200px;
 	padding-bottom: 80px;
 	
@@ -310,7 +309,7 @@ footer a:visited{
 
 #blind-four{
 	z-index: 3;
-	transform: rotate(6deg);
+	transform: rotate(2.73deg);
 }
 
 /*page retour aux sources */
@@ -321,7 +320,6 @@ footer a:visited{
 .section_trois{
 /*	border: 2px solid purple;*/
 	width: 100vw;
-	height: 385vh;
 	padding-top: 200px;
 	padding-bottom: 80px;
 }
