@@ -118,7 +118,7 @@ section{
 }
 
 article{
-	border: 4px solid pink;
+/*	border: 4px solid pink;*/
 	width: calc( 100vw / 6 * 3 );
 	font-family: 'dela';
 	font-size: 4vmax;
@@ -171,7 +171,7 @@ article{
 
 /*partie footer*/
 footer{
-	border: solid orange 2px;
+/*	border: solid orange 2px;*/
 	position: relative;
 	bottom: 20px;
 /*	width: 100vw;*/
@@ -180,15 +180,6 @@ footer{
 	text-align: center;	
 	font-family: 'paysage';
 	color: grey;
-}
-
-footer h3{
-/*	border: solid grey 2px;*/
-	/*margin: auto;	
-	width: 700px;
-	text-align: center;	
-	font-family: 'paysage';
-	color: grey;*/
 }
 
 footer a:visited{
@@ -200,7 +191,7 @@ footer a:visited{
 /*//------------réglages par défaut des pages de projet---------------*/
 
 .section_un{
-	border: 2px solid purple;
+/*	border: 2px solid purple;*/
 	width: 100vw;
 	height: 345vh;
 	padding-top: 200px;
@@ -252,7 +243,7 @@ footer a:visited{
 /*//------------réglages par défaut des pages de projet---------------*/
 
 .section_deux{
-	border: 2px solid purple;
+/*	border: 2px solid purple;*/
 	width: 100vw;
 	height: 265vh;
 	padding-top: 200px;
@@ -274,13 +265,33 @@ footer a:visited{
 	margin: 0px auto 50px auto;
 }
 
+/*photo1*/
+#blind-one{
+	z-index: 0;
+}
+
+#blind-two{
+	z-index: 3;
+	transform: rotate(-6.44deg);
+}
+
+#blind-tree{
+	z-index: 3;
+	transform: rotate(6deg);
+}
+
+#blind-four{
+	z-index: 3;
+	transform: rotate(6deg);
+}
+
 /*page retour aux sources */
 
 /*//------------réglages par défaut des pages de projet---------------*/
 /*image encrée à gauche*/
 
 .section_trois{
-	border: 2px solid purple;
+/*	border: 2px solid purple;*/
 	width: 100vw;
 	height: 385vh;
 	padding-top: 200px;
