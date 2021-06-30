@@ -333,7 +333,7 @@ footer a:visited{
 
 #source-one, #source-tree, #source-five {
 	float: left;
-	position: relative;
+	/*position: relative;*/
 }
 
 /*image encrée à droite*/
@@ -351,27 +351,27 @@ footer a:visited{
 /*image 2*/
 #source-two{
 	z-index: 0;
-	bottom: 200px;
+	/*bottom: 200px;*/
 	transform: rotate(-2.16deg);
 
 }
 
 /*image 3*/
 #source-tree{
-	bottom: 400px;
+/*	bottom: 400px;*/
 	z-index: 0;
 }
 
 /*image 4*/
 #source-four{
 	z-index: 3;
-	bottom: 700px;
+/*	bottom: 700px;*/
 	transform: rotate(19.04deg);
 }
 
 /*image 5*/
 #source-five{
-	bottom: 800px;
+/*	bottom: 800px;*/
 	z-index: 4;
 }
 
