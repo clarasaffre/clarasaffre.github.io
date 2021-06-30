@@ -199,7 +199,7 @@ footer a:visited{
 
 /*//------------réglages par défaut des pages de projet---------------*/
 
-.section_deux{
+.section_un{
 	border: 2px solid purple;
 	width: 100vw;
 	height: 345vh;
@@ -251,10 +251,10 @@ footer a:visited{
 
 /*//------------réglages par défaut des pages de projet---------------*/
 
-.section_trois{
+.section_deux{
 	border: 2px solid purple;
 	width: 100vw;
-	height: 380vh;
+	height: 265vh;
 	padding-top: 200px;
 	padding-bottom: 80px;
 	
@@ -278,6 +278,22 @@ footer a:visited{
 
 /*//------------réglages par défaut des pages de projet---------------*/
 /*image encrée à gauche*/
+
+.section_trois{
+	border: 2px solid purple;
+	width: 100vw;
+	height: 385vh;
+	padding-top: 200px;
+	padding-bottom: 80px;
+}
+
+#cartouche4{
+	position: fixed;
+	left: 5.5vw;
+	top: 383px;
+	z-index: 0;
+}
+
 #source-one, #source-tree, #source-five {
 	float: left;
 	position: relative;
