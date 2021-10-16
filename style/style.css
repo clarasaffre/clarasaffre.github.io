@@ -1,385 +1,306 @@
+@font-face{
+	font-family: 'cyrene';
+	src: url('typo/cyrene.otf');
+}
 
 @font-face{
-	font-family: "dela";
-	src: url("../typo/dela.ttf");
+	font-family: 'montserrat';
+	src: url('typo/monserrat.ttf');
 }
 
 @font-face{
-	font-family: "paysage";
-	src: url("../typo/paysage.woff");
+	font-family: 'minipax';
+	src: url('typo/minipax.woff');
 }
+
 @font-face{
-	font-family : "akrobat";
-	src: url("../typo/akrobat.woff");
+	font-family: 'sporting';
+	src: url('typo/sporting.woff2');
 }
 
-body{
-	width: 100vw;
-	overflow-x: hidden;
+/*animation*/
+
+@keyframes appear{
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 100;
+	}
 }
 
-/*partie hearder*/
+@keyframes saut{
+	0%{
+		position: relative;
+		top: 10px;
+	}
+
+	50%{
+		position: relative;
+		top: 0px;
+	}
+
+	100%{
+		position: relative;
+		top: 10px;
+	}
+}
+
+
+#one{
+	background-color:#f6c2bd;
+}
+
+.body{
+	background-color:#fbe7e8 ;
+}
+
+#split{
+	background: linear-gradient(to right, #ffffff 0%, #ffffff 25%, #fbe7e8 25%, #fbe7e8 100% );
+}
+
+/*conteneur de pré-accueil*/
+#container-pre{
+	animation: appear 8s ease;
+	width: 90%;
+	margin: 20px auto 20px;
+
+}
+
+/*conteneur principal*/
+.container{
+	border: 1px solid yellow;
+
+	width: 95%;
+	margin: auto;
+}
+
+
+/*header de la page principale*/
 header{
-	/*border: thin solid red;*/
-	width: 100vw;
-	padding: 50px 50px 0px 50px;	
-	justify-content: space-between;
-	position: fixed;
+/*
+	border: 1px solid #ff4219;*/
 	display: flex;
-	z-index: 1000;
-
+	justify-content: space-between;	
+	align-items: center;
+	height: 96px;
 }
 
-header ul{
-	/*border: thin solid blue;*/
-	width: 180px;
-	font-family: 'paysage';
-	font-size: 1.2em;
-	text-transform: uppercase;
-	justify-content: space-between;
+
+/*header de la page about et projet*/
+#headerabout{
+
+/*	border: 1px solid #ff4219;*/
+
+	justify-content: flex-end;
+	position: relative;
+	z-index: 20;
+	
+}
+
+#headerabout a{
+	margin-left: 40px;
+}
+
+
+#logo{
 	position: fixed;
-	right: 50px;
-	display: inline-flex;
+	z-index: 30;
+	left: calc(50vw - 140px);
+	top: 20px;
+	width: 280px;
 }
 
-header a{
+
+#logo img{
+	width: 100%;
+/*	border: solid 1px black;*/
+	justify-content: space-between;
+
+
+}
+
+#box-button{
+	border: 1px solid #ff4219;
+/*	border-radius: 10px;*/
+	width: 215px;
+	height: 40px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+/*	ms-display: grid;
+	grid-template-columns: 1fr 1fr;*/
+
+}
+
+/*case qui contient le lien about*/
+.link-container{
+	font-family: 'cyrene';
+	font-size: 1.3em;
 	text-decoration: none;
-	color: #f72617;
+	color: #ff4219;
+	text-transform: uppercase;
+	
 }
 
-/*trait sous les liens*/
-header a hr{
-	opacity: 0;
-}
-
-/*quand on passe sur la souris sur le lien work, le trait apparait*/
-header #work:hover hr{
-	opacity: 1;
+/*les traits sous les liens du header*/
+.link-container hr{
 	border: none;
-	height: 3px;
-	background-color: #f72617;
-	transform: rotate(-3deg);
+
 }
 
-/*quand on passe sur la souris sur le lien moi, le trait apparait*/
-header #moi:hover hr{
-	opacity: 1;
-	border: none;
-	height: 3px;
-	background-color: #f72617;
-	transform: rotate(4deg);
+.link-container a:hover hr {
+
+	
 }
 
-/*quand on passe sur la souris sur le lien insta, le trait apparait*/
-header #insta:hover hr{
-	opacity: 1;
-	border: none;
-	height: 3px;
-	background-color: #f72617;
-	transform: rotate(-5deg);
+/*phrase d'intro sur la pré-accueil*/
+#intro{
+	width: 80%;
+	margin: 20% auto 14%;
 }
 
+/*phrase d'intro*/
+#intro h1{
+/*	border: 1px solid red;*/
+	margin: 18.5% auto 14%;
+	color: #ff4219;
+	font-family: 'cyrene';
 
-/*partie section*/
-section{
-/*	border: 2px solid purple;*/
-	width: 100vw;
-	padding-top: 200px;
+	font-size: 5.55em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	animation: appear 2s ease-in;
+}
+
+/*scroll to see more*/
+#scroll {
+	animation:  saut 1s ease-in-out infinite; /*petit saut animation*/
+	color: #ff4219;
+	font-family: 'sporting';
+	text-align: center;
+	/*border: 1px solid #ff4219; */
+	/*border-radius: 50% / 50%;*/
+	margin: auto;
+	padding-top: 15px;
+	width: 300px;
+	height: 30px;
+}
+
+/*menu projets*/
+#menu-projet{
+/*	border: 1px solid #ff4219;*/
+	margin-top: 10px;
 	display: flex;
-}
-
-/*sur le côté de l'article, il y a des boutons*/
-#nav{
-/*	border: 3px solid green;*/
-	width: calc(100vw / 4);
-	height: 70vh;
-	overflow: scroll;
-	display: block;
-	margin: 0px 60px 0px 60px;
-}
-
-/*les previews sont cachées et se placent au dessus du texte en :hover*/
-.preview{
-	/*display: none;*/
-	/*border: 1px black solid;*/
-	position: fixed;
-	left: 20vw;
-	top: 20vh;
-	z-index: 1000;
-	opacity: 0;
-	transition: 0.5s ease all;
-	box-shadow: -5px -5px 13px rgba(0, 0, 0, 0.6);
-}
-#nav ul li .bouton:hover +.preview{
-	/*display: block;*/
-	left: 30vw;	
-	opacity: 1;
-}
-
-article{
-/*	border: 4px solid pink;*/
-	width: calc( 100vw / 6 * 3 );
-	font-family: 'dela';
-	font-size: 4vmax;
-	line-height: 1.3em;
-	color: #1f78ad;
-	display: block;
-	/*margin-left: 20px;*/
-	z-index:0;/*le texte dans section est placé en dessous des previews*/
-}
-
-/*class bouton espacés entre eux de 20px*/
-.bouton{
-	width: 20vw;
-	display: block;
-	margin: 25px auto 0px;
-}
-
-/*position de base du bouton expérimentation*/
-#bouton_exp{
-	transform: rotate(-3.23deg);
-}
-/*position lors du :hover*/
-#bouton_exp:hover {
-	transition: all 150ms ease-in-out;
-	transform: rotate(3.23deg);
-}
-
-/*position de base du bouton blindtest*/
-#bouton_blind{
-	transform: rotate(-11.90deg);
-}
-
-/*position lors du :hover*/
-#bouton_blind:hover {
-	transition: all 150ms ease-in-out;
-	transform: rotate(11.90deg);
-}
-
-/*position de base du bouton source*/
-#bouton_source{
-	transform: rotate(6.27deg);
-}
-
-/*position lors du :hover*/
-#bouton_source:hover {
-	transition: all 150ms ease-in-out;
-	transform: rotate(-6.27deg);
-}
-
-
-/*partie footer*/
-footer{
-/*	border: solid orange 2px;*/
-/*	width: 100vw;*/
-	margin: auto;	
-	width: 700px;
-	text-align: center;	
-	font-family: 'paysage';
-	color: grey;
-}
-
-footer a{
-	color: grey;
-}
-
-footer a:visited{
-	color: grey;
-}
-
-/*page expérimentation */
-
-/*//------------réglages par défaut des pages de projet---------------*/
-
-.section_un{
-/*	border: 2px solid purple;*/
-	width: 100vw;
-	padding-top: 200px;
-	padding-bottom: 80px;
-
-/*	display: flex;*/
-}
-
-/*cartouches sur le côté gauche*/
-
-.bouton2{
-	width: 20vw;
-	display: block;
-	margin: 25px auto 0px;
-}
-
-#cartouche1{
-	position: fixed;
-	left: 5.5vw;
-	z-index: 1;
-
-}
-/*//-------------------------------------------------------------------*/
-
-#cartouche2{
-	position: fixed;
-	left: 5.5vw;
-	top: 360px;
-	z-index: 0;
-}
-
-.page-experimentation img{
-	box-shadow: -5px -5px 13px rgba(0, 0, 0, 0.6);
-	display: block;
-	margin: 0px auto 50px auto;
-}
-
-.page-experimentation figure{
-	display: flex;	
+	ms-display: flex;
+/*	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 15px;*/
 	justify-content: space-between;
 }
 
-.page-experimentation figure img{
-	display: inline-block;
-	margin: 50px auto 50px auto;
+
+/*taille du bloc projet*/
+.container-projet{
+	height: 82vh;
+	width: 22vw;
+	border: 1px solid #ff4219;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-#exp-one{
-	position: relative;
-	bottom: 0px;
+#photo-text:hover{
+background-image: url(../import/source-color.jpg);
+background-size: cover;
+background-position: center;
 }
 
-#exp-two{
-	position: relative;
-	bottom: 50px;
+#experimentation-text:hover{
+background-image: url(../import/andersen-color.png);
+background-size: cover;
 }
 
-#exp-tree{
-	position: relative;
-	
+#calendrier-text:hover{
+background-image: url(../import/calendrier-color.png);
+background-size: cover;
 }
 
-#exp-four{
-	position: relative;
-	bottom: 70px;
-	transform: rotate(4deg);
+#blindtest-text:hover{
+background-image: url(../import/blindtest-color.jpg);
+background-size: cover;
 }
 
-#exp-five{
-	position: relative;
-	right: 400px;
 
+#photo-text{
+background-image: url(../import/source.png);
+background-size: cover;
+background-position: center;
 }
 
-/*page blindtest */
-
-/*//------------réglages par défaut des pages de projet---------------*/
-
-.section_deux{
-/*	border: 2px solid purple;*/
-	width: 100vw;
-	padding-top: 200px;
-	padding-bottom: 80px;
-	
-/*	display: flex;*/
+#experimentation-text{
+background-image: url(../import/andersen.png);
+background-size: cover;
 }
 
-#cartouche3{
-	position: fixed;
-	left: 5.5vw;
-	top: 330px;
-	z-index: 0;
+#calendrier-text{
+background-image: url(../import/calendrier.png);
+background-size: cover;
 }
 
-.page-blindtest img{
-	box-shadow: -5px -5px 13px rgba(0, 0, 0, 0.6);
-	display: block;
-	margin: 0px auto 50px auto;
-}
-
-/*photo1*/
-#blind-one{
-	z-index: 0;
-}
-
-#blind-two{
-	z-index: 3;
-	transform: rotate(-6.44deg);
-}
-
-#blind-tree{
-	z-index: 3;
-	transform: rotate(6deg);
-}
-
-#blind-four{
-	z-index: 3;
-	transform: rotate(2.73deg);
-}
-
-/*page retour aux sources */
-
-/*//------------réglages par défaut des pages de projet---------------*/
-/*image encrée à gauche*/
-
-.section_trois{
-/*	border: 2px solid purple;*/
-	width: 100vw;
-	padding-top: 200px;
-	padding-bottom: 80px;
-}
-
-#cartouche4{
-	position: fixed;
-	left: 5.5vw;
-	top: 383px;
-	z-index: 0;
-}
-
-#source-one, #source-tree, #source-five {
-	float: left;
-	/*position: relative;*/
-}
-
-/*image encrée à droite*/
-#source-two, #source-four {
-	float: right;
-	position: relative;
-}
-
-/*image 1*/
-#source-one{
-	z-index: 2;
-	transform: rotate(-2.72deg);
-}
-
-/*image 2*/
-#source-two{
-	z-index: 0;
-	/*bottom: 200px;*/
-	transform: rotate(-2.16deg);
+#blindtest-text{
+background-image: url(../import/blindtest.png);
+background-size: cover;
+background-position: center;
 
 }
 
-/*image 3*/
-#source-tree{
-/*	bottom: 400px;*/
-	z-index: 0;
-}
-
-/*image 4*/
-#source-four{
-	z-index: 3;
-/*	bottom: 700px;*/
-	transform: rotate(19.04deg);
-}
-
-/*image 5*/
-#source-five{
-/*	bottom: 800px;*/
+/*le titre du projet*/
+.container-projet .title-project{
 	z-index: 4;
+	color: #ff4219;
+	background-color: #fbe7e8;
+	font-family: 'cyrene';
+	font-size: 2em;
+	padding-top: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	/*border: 1px solid #ff4219; */
+	
 }
 
-/*réglage du contenu de l'article dans la page retour aux sources*/
-.page-source img{
-	box-shadow: -5px -5px 13px rgba(0, 0, 0, 0.6);
-	display: block;
-	margin: 0px auto 0px auto;
+/*position particulière de photo*/
+.container-projet #photos{
+
+	padding: 10px;
+	text-align: center;
+}
+
+/*position particulière de expérimentation */
+.container-projet #experimentation{
+
+	word-break: break-all;
+	padding: 10px;
+}
+
+/*position particulière de ferme des animaux */
+.container-projet #calendrier{
+
+	padding: 10px;
+}
+
+/*position particulière de ferme des animaux */
+.container-projet #blindtest{
+
+	padding: 10px;
+}
+
+
+/*quand je passe la souris sur le bloc, le titre change de couleur*/
+.container-projet:hover .title-project{
+	color: #fbe7e8;
+	background-color: #ff4219;
 }
 
 
@@ -387,3 +308,181 @@ footer a:visited{
 
 
 
+	/*page about*/
+
+#sectionabout{
+	color: #ff4219;
+	font-family: 'cyrene';
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index:0 ;
+	top: 0px;
+	font-size: 3.7em;
+	text-transform: uppercase;
+}
+
+/*l'image de about*/
+#sectionabout img{
+	width: 600px;
+}
+
+/*le texte de about*/
+#sectionabout h2{
+	margin: 100px;
+	line-height: 1.09em;
+	letter-spacing: 2px;
+
+
+}
+
+/*les liens du texte de about*/
+#sectionabout h2 a{
+	color: #ff4219;
+	text-decoration: underline 3px;
+
+}
+
+#sectionabout h2 a: visited{
+	color: #ff4219;
+}
+
+
+
+
+
+	/*contenu des projets*/
+
+aside{
+/*	border: 1px solid black;*/
+	color: #ff4219;
+	width: 20vw;
+	position: fixed;
+	bottom: 30px;
+}
+aside h3{
+	font-family: 'sporting';
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+
+/*boite qui regroupe dans le container aside et le contenu 
+des projets*/
+.aside-projet{
+	margin-top:  10px;
+	border: 1px solid purple;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+/*photos du premier rang*/
+#photo-rang-un{
+	border: 2px solid blue;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 4.5vh;
+}
+
+#photo-rang-un img{
+	width: 22vw;
+}
+
+/*photo du second rang*/
+#photo-rang-deux{
+	border: 2px solid blue;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#photo-rang-deux img{
+	width: 34.3vw;
+}
+
+#container-all-projet{
+	margin-bottom: 8vh;
+
+}
+
+#legende{
+	font-family: 'sporting';
+	margin-bottom: 5em;
+	line-height: 1.2em;
+}
+
+#explications{
+	font-family: 'montserrat';
+	margin-bottom: 20px;
+}
+
+/*lien de blindtest*/
+#link-site{
+	font-family: 'cyrene';
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+
+#link-site:visited{
+	color: #ff4219;
+}
+
+/*boite avec toutes les photos de projet*/
+#container-all-projet{
+	margin-top: 20px;
+	width: 74%;
+	float: right;
+}
+
+
+
+/*boite bouton avant et après*/
+#back-next{
+/*	border: 1px solid cyan;*/
+	margin-top: 280px;
+	display: flex;
+	width: 100%;
+
+	justify-content: space-between;
+}
+
+#back-next a{
+	font-family: 'cyrene';
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ff4219;
+}
+
+#back-next a: visited{
+	color: #ff4219;
+}
+
+#back{
+	width: 100px;
+/*	border: 1px solid red;*/
+}
+
+#next{
+	text-align: right;
+	width: 100px;
+/*	border: 1px solid red;*/
+}
+
+
+
+
+
+footer{
+/*	border: 1px solid #ff4219;*/
+/*	border: 1px solid green;*/
+	color: #ff4219;
+	position: fixed;
+	bottom: 0px;	
+	width: 100%;
+	font-family: 'montserrat';
+	font-size: 0.8em;
+	text-align: center;
+	margin: 20px auto 20px;
+}
