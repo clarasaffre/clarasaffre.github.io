@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<title>Clara Saffre</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style/reset.css">
-		<link rel="stylesheet" type="text/css" href="style/style.css">
-	<script src="js/jquery-ui.js"></script>
-	</head>
-	<body>
-		<header>
-			<a href="index.html"><img src="import/logo.svg" alt="logo Clara Saffre graphiste"></a>
-			<ul>
-				<li><a id="work" href="#">work<hr></a></li>
-				<li><a id="moi" href="#">moi<hr></a></li>
-				<li><a id="insta" href="#">insta<hr></a></li>
-			</ul>
+<head>
+	<meta charset="utf-8">
+	<title>Clara Saffre</title>
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body id="split">
+	<section class="container">
+
+		<div id="logo">
+			<a  href="index.html">
+				<img src="import/logo.svg" alt="logo here">
+			</a>
+		</div>	
+
+		<header id="headerabout">
+
+			<a class="link-container" href="accueil.html">
+				projets
+			</a>
+
+			<a class="link-container" href="about.html">
+				about
+			</a>	
+	
+				
 		</header>
-		
-		<section class="section_deux">
-			<aside id="nav">
-				<ul>
-					<li>
-						<img class="bouton2" id="cartouche1" src="import/blindtest1.svg" alt="bouton expérimentations">
-					</li>
-					<li>	
-						<a href="#">
-							<img class="bouton" id="cartouche3" src="import/blindtest2.svg" alt="bouton site web blindtest">
-						</a>	
-				</ul>
+<!-- 
+		<section class="aside-projet"> -->
+
+			<aside>
+				<h3>
+					blindtest
+				</h3>
+				<p id="legende">
+					Projet site web<br>
+					html5, css3, JavaScript, illustrator<br>
+					Mai 2021<br>
+					Lycée Jacques Prévert
+				</p>
+
+				<p id="explications">
+					Aujourd'hui, nous savons tous naviguer sur le web mais sauras-tu le faire les yeux fermés ?<br>
+					En s'appuyant sur le texte de Vannevar Bush, j'ai conçu un site web plongé dans le noir pour faire vire à l'utilisateur, l'expérience d'une personne déficiante visuelle.
+				</p>
+				<a id="link-site" target="blank" href="http://dnmade-prevert.fr/dnmade1_minisite/2021/ClaraSaffre/page11.html"> Tu peux tester mon site !</a>
+
+				<div id="back-next">
+					<a id="back" href="calendrier.html">
+						< back
+					</a>
+
+					<a id="next" href="retour-sources.html">
+						next >
+					</a>
+				</div>
 			</aside>
-			<article class="page-blindtest">
-				<img id="blind-one" src="import/blindtest1.jpg">
-				<img id="blind-two" src="import/blind2.png">
-				<img id="blind-tree" src="import/blind3.png">
-				<img id="blind-four" src="import/blind4.png">
-			</article>
-		</section>
+
+			<section id="container-all-projet">
+
+
+			</section>
+
+
+	</section>			
+
 		<footer>
-			<p>
-				designed and coded by Clara Saffre <img src="import/slash.svg"> css3, html5 <img src="import/slash.svg"> typo : <a target="blank" href="https://fonts.google.com/specimen/Dela+Gothic+One"> Dela Gothic One </a> <img src="import/slash.svg"> hosted by <a target="blank" href="https://github.com">Github</a>
-			</p> 
+			<h3 id="copyright">
+				site codé en html et css par Clara Saffre <sup>©</sup>
+			</h3>
 		</footer>
-	</body>
+
+</body>
 </html>
