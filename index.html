@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Clara Saffre</title>
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script src="js/jquery.js"></script>
+</head>
+<body id="one">
+	<div id="container-pre" class="container">
+		<!-- <header>
+
+			<a id="logo" href="index.html"><img src="import/logo.svg" alt="logo wesh"></a>
+
+				<ul id="box-button">
+					<li id="about"><a href="about.html"><p>about</p></a></li>
+					<li id="projets"><a href="index.html"><p>projets</p></a></li>
+				</ul>
+				
+		</header> -->
+
+		
+		<article id="intro">
+				<h1>
+					Hello !<br>
+					Je m'appelle <em>Clara Saffre</em><br>
+					Bienvenue sur mon portfolio !
+				</h1>
+		</article>	
+		<article >
+			<span onclick="transitionToPage('accueil.html')" title="Entrer">
+			<h1>click to see more</h1>
+		</span>
+		</article>
+<!-- 
+		<footer>
+			<h3 id="right">
+				site codé par Clara Saffre <sup>©</sup>
+			</h3>
+		</footer> -->
+	</div>	
+	<script>
+	/*Apparition et disparition de la page*/
+	    window.transitionToPage = function (href) {
+	      /*Position par défaut à -100vh*/
+	      $("body").css("transform", "translate(0px, -100vh)");
+	      setTimeout(function () {
+	        window.location.href = href;
+	      }, 750)
+	    }
+	    /*Apparition de la page après timer précédent*/
+	    document.addEventListener('DOMContentLoaded', function (event) {
+	      $("body").css("transform", "translate(0px, 0vh)");
+	    });
+		</script>
+</body>
+</html>
