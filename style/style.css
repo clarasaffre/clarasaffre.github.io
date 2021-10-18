@@ -47,15 +47,32 @@
 	}
 }
 
+@keyframes remonte{
+	0%{
+  transform: translate(0px, 20vh);
+  opacity: 0;
+	}
+	100%{
+  transform: translate(0px, 0vh);		
+  opacity: 1;
+	}
+}
+
 
 #one{
 	background-color:#f6c2bd;
-	  transform: translate(0px, -100vh);
-  transition: transform 3s ease;
+	transform: translate(0px, -100vh);
+  	transition: transform 3s ease;
 }
 
 .body{
 	background-color:#fbe7e8 ;
+}
+
+#remonte{
+	background-color:#fbe7e8 ;
+	animation: remonte ease 1s;
+
 }
 
 #split{
@@ -161,13 +178,12 @@ header{
 /*phrase d'intro sur la pré-accueil*/
 #intro{
 	width: 80%;
-	margin: 20% auto 14%;
+	margin: 20% auto 10%;
 }
 
 /*phrase d'intro*/
 #intro h1{
 /*	border: 1px solid red;*/
-	margin: 18.5% auto 14%;
 	color: #ff4219;
 	font-family: 'cyrene';
 
