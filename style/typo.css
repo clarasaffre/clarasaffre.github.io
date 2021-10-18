@@ -1,0 +1,19 @@
+@font-face{
+	font-family: 'cyrene';
+	src: url('typo/cyrene.otf');
+}
+
+@font-face{
+	font-family: 'monserrat';
+	src: url('typo/monserrat.ttf');
+}
+
+@font-face{
+	font-family: 'minipax';
+	src: url('typo/minipax.woff');
+}
+
+@font-face{
+	font-family: 'sporting';
+	src: url('typo/sporting.woff2');
+}
