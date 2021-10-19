@@ -210,7 +210,7 @@ header{
 /*menu projets*/
 #menu-projet{
 /*	border: 1px solid #ff4219;*/
-	margin-top: 30px;
+	margin-top: 10px;
 	display: flex;
 	ms-display: flex;
 /*	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -221,7 +221,7 @@ header{
 
 /*taille du bloc projet*/
 .container-projet{
-	height: 80vh;
+	height: 82vh;
 	width: 22vw;
 	border: 1px solid #ff4219;
 	text-decoration: none;
@@ -553,5 +553,5 @@ footer{
 	font-family: 'montserrat';
 	font-size: 0.8em;
 	text-align: center;
-	margin: 10px auto 10px;
+	margin: 20px auto 5px;
 }
