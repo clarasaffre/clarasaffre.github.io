@@ -244,6 +244,7 @@ background-size: cover;
 #calendrier-text:hover{
 background-image: url(../import/calendrier-color.png);
 background-size: cover;
+background-position: center;
 }
 
 #blindtest-text:hover{
@@ -266,6 +267,7 @@ background-size: cover;
 #calendrier-text{
 background-image: url(../import/calendrier.png);
 background-size: cover;
+background-position: center;
 }
 
 #blindtest-text{
