@@ -83,7 +83,7 @@
 #container-pre{
 	animation: appear 8s ease;
 	width: 100vw;
-	height: 100vh;
+/*	height: 100vh;*/
 /*	margin: 20px auto 20px;*/
 	text-align: center;
 	position: fixed;
