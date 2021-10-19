@@ -209,7 +209,8 @@ header{
 
 /*menu projets*/
 #menu-projet{
-/*	border: 1px solid #ff4219;*/
+	border: 1px solid #ff4219;
+	height: 85vh;
 	margin-top: 10px;
 	display: flex;
 	ms-display: flex;
@@ -221,7 +222,7 @@ header{
 
 /*taille du bloc projet*/
 .container-projet{
-	height: 82vh;
+	height: 100%;
 	width: 22vw;
 	border: 1px solid #ff4219;
 	text-decoration: none;
