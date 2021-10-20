@@ -606,23 +606,50 @@ aside h3{
 }
 
 #calendrier-rang-deux{
-	border: 1px solid black;
-	background-image: url(../import/arctic_station_noir.png)
+/*	border: 1px solid red;*/
 	width: 100%;
-	height: 100vh;
 	margin-top: 20vh;
 	margin-bottom: 20vh;
 	display: flex;
 	justify-content: space-around;
 }
 
-#calendrier-rang-deux:hover{
+#bicolor{
+/*	border: 1px solid black;*/
+	height: 80vh;
+	width: 52vw;
+	background-image: url(../import/arctic_station_noir.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#bicolor:hover{
 	background-image: url(../import/arctic_station_couleur.png);
 }
 
-#calendrier-rang-deux img{
-	width: 50vw;
+#calendrier-rang-trois{
+/*	border: 1px solid red;*/
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
+
+#calendrier-rang-trois img{
+	width: 34vw;
+}
+
+#croquis{
+	border: 1px solid black;
+	display: block;
+	justify-content: space-between;
+	width: 32vw;
+
+}
+
+#croquis img{
+	width: 32vw;
+}
+
 
 footer{
 /*	border: 1px solid #ff4219;*/
