@@ -581,7 +581,6 @@ aside h3{
 
 #andersen-rang-cinq{
 	width: 100%;
-	margin-bottom: 4.5vh;
 }
 
 #andersen-rang-cinq img{
@@ -649,6 +648,88 @@ aside h3{
 #croquis img{
 	width: 32vw;
 }
+
+
+
+
+	/*blindtest*/
+
+#blindtest-rang-un{
+/*	border: 1px solid yellow;*/
+	width: 100%;
+	display: flex;
+	margin-bottom: 15vh;
+}
+
+#blindtest-rang-un img{
+/*	border: 1px solid yellow;*/
+	width: 70vw;
+	display: flex;
+}
+
+#blindtest-rang-deux, #blindtest-rang-trois, 
+#blindtest-rang-quatre{
+/*	border: 1px solid red;*/
+	width: 100%;
+	margin-bottom: 4vh;
+}
+
+#blindtest-rang-deux img, #blindtest-rang-trois img, 
+#blindtest-rang-quatre img{
+	width: 40vw;
+}
+
+#blindtest-rang-deux{
+	display: flex;
+	justify-content: flex-start;
+}
+
+#blindtest-rang-trois{
+	display: flex;
+	justify-content: space-around;
+}
+
+#blindtest-rang-quatre{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#blindtest-rang-cinq{
+	margin-top: 25vh;
+	margin-bottom: 4vh;
+	display: flex;
+	justify-content: center;
+}
+
+#before-after{
+/*	border: 1px solid green;*/
+	height: 60vh;
+	width: 50vw;
+	background-image: url(../import/wireframe2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#before-after:hover{
+	background-image: url(../import/site2.png);
+}
+
+#blindtest-rang-six{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#gif2{
+	margin:  auto;
+/*	border: 1px solid red;*/
+/*	width: 80vh;*/
+}
+
+#gif2 img{
+	width: 75vh;
+}
+
 
 
 footer{
