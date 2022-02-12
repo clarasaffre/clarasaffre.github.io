@@ -73,10 +73,12 @@
 	animation: remonte ease 1s;
 	background-color:#fbe7e8;
 
+
 }
 
 #split{
 	background: linear-gradient(to right, #ffffff 0%, #ffffff 25%, #fbe7e8 25%, #fbe7e8 100% );
+	overflow-y: scroll;
 }
 
 /*conteneur de pré-accueil*/
@@ -92,23 +94,65 @@
 
 /*conteneur principal*/
 .container{
-/*	border: 1px solid yellow;*/
 	height: 100vh;
 	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: space-around;
+	overflow-x: scroll;
+}
+.container2{
+	height: 100vh;
+	width: 95vw;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-around;
+	
+}
+
+/*scrollbar*/
+
+.container::-webkit-scrollbar {
+  -webkit-appearance: none;
+  border: 1px solid #ff4219 ;
+
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff4219;
+}
+::-webkit-scrollbar-track{
+	background-color: white;
+	border: 1px solid #ff4219;
+}
+
+#split::-webkit-scrollbar {
+  -webkit-appearance: none;
+  border: 1px solid #ff4219 ;
+
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff4219;
+}
+::-webkit-scrollbar-track{
+	background-color: white;
+	border: 1px solid #ff4219;
 }
 
 
 /*header de la page principale*/
 header{
-/*
-	border: 1px solid #ff4219;*/
+/*	border: 1px solid #ff4219;*/
 	display: flex;
 	justify-content: space-between;	
 	align-items: center;
 	height: 96px;
+	width: 94vw;
+	position: fixed;
+	left: calc(100vw/2 - 94vw/2);
+}
+
+header img{
+	height: 7vh;
 }
 
 
@@ -211,7 +255,8 @@ header{
 #menu-projet{
 /*	border: 1px solid #ff4219;*/
 	height: 80vh;
-	margin-top: 4vh;
+	width: 130vw;
+	margin-top: calc(100vh/2 - 22vw + 2vh);
 	display: flex;
 	ms-display: flex;
 /*	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -253,6 +298,11 @@ background-image: url(../import/blindtest-color.jpg);
 background-size: cover;
 }
 
+#cycle-text:hover{
+background-image: url(../import/grid-color.png);
+background-size: cover;
+}
+
 
 #photo-text{
 background-image: url(../import/source.png);
@@ -278,6 +328,13 @@ background-position: center;
 
 }
 
+#cycle-text{
+background-image: url(../import/grid.png);
+background-size: cover;
+background-position: center;
+
+}
+
 /*le titre du projet*/
 .container-projet .title-project{
 	z-index: 4;
@@ -288,9 +345,12 @@ background-position: center;
 	padding-top: 14px;
 	text-transform: uppercase;
 	text-align: center;
+	padding: 10px;
 	/*border: 1px solid #ff4219; */
 	
 }
+
+/*POUR CHANGER LA LARGEUR DE L'ETIQUETTE*/
 
 /*position particulière de photo*/
 .container-projet #photos{
@@ -317,7 +377,6 @@ background-position: center;
 
 	padding: 10px;
 }
-
 
 /*quand je passe la souris sur le bloc, le titre change de couleur*/
 .container-projet:hover .title-project{
@@ -448,10 +507,13 @@ aside h3{
 
 #photo-rang-deux img{
 	width: 34.3vw;
-}
+}x
 
 #container-all-projet{
-	margin-bottom: 8vh;
+	border: black solid 1px;
+	margin: auto;
+	width: 95%;
+	margin-bottom: 4vh;
 
 }
 
@@ -730,6 +792,36 @@ aside h3{
 	width: 75vh;
 }
 
+	/*cycle*/
+
+#cycle-rang-un img{
+	width:100%;
+}
+
+#cycle-rang-deux{
+display: flex;	
+justify-content: space-between;
+margin-top: 4vh;
+}
+
+#cycle-rang-deux img{
+width: 50%;
+height: 50%;
+}
+
+#cycle-rang-trois{
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+}
+
+#cycle-rang-trois img{
+	width: 100%;
+}
+	
+#cycle-rang-quatre{
+	display: flex;
+	justify-content: space-around;
+}
 
 
 footer{
