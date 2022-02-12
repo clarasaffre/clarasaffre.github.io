@@ -260,7 +260,7 @@ header img{
 #menu-projet{
 /*	border: 1px solid #ff4219;*/
 	height: 80vh;
-	width: 130vw;
+	width: 155vw;
 	margin-top: calc(100vh/2 - 22vw + 2vh);
 	display: flex;
 	ms-display: flex;
@@ -308,6 +308,12 @@ background-image: url(../import/grid-color.png);
 background-size: cover;
 }
 
+#processing-text:hover{
+background-image: url(../import/processing-color.png);
+background-size: cover;
+background-position: center;
+}
+
 
 #photo-text{
 background-image: url(../import/source.png);
@@ -338,6 +344,12 @@ background-image: url(../import/grid.png);
 background-size: cover;
 background-position: center;
 
+}
+
+#processing-text{
+	background-image: url(../import/processing.png);
+	background-size: cover;
+	background-position: center;
 }
 
 /*le titre du projet*/
@@ -518,7 +530,7 @@ aside h3{
 	border: black solid 1px;
 	margin: auto;
 	width: 95%;
-	margin-bottom: 4vh;
+	margin-bottom: 10vh;
 
 }
 
@@ -826,6 +838,54 @@ height: 50%;
 #cycle-rang-quatre{
 	display: flex;
 	justify-content: space-around;
+}
+
+/*processing*/
+
+#processing-rang-un{
+/*	border: solid 1px black;*/
+	display: flex;
+	width: 100%;
+}
+
+#processing-rang-un img{
+	margin:  auto;
+}
+
+#processing-examples{
+/*	border: 1px solid red;*/
+	display: flex;
+	margin:  auto;
+	justify-content: space-between;
+	width: 80%;
+	height: 975px	;
+}
+
+#processing-rang-deux{
+	margin-top: 10vh;
+/*	border: 1px solid black;*/
+	width: 65%;
+	margin: auto;
+
+}
+
+#processing-rang-deux img{
+	width: 100%;
+	margin: auto;
+}
+
+
+#processing-rang-trois{
+/*	border: 1px solid black;*/
+	margin-top: 10vh;
+	width: 35%;
+	margin: auto;
+}
+
+#processing-rang-trois img{
+	width: 100%;
+	display: flex;
+
 }
 
 
