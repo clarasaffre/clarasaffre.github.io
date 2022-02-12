@@ -171,6 +171,11 @@ header img{
 	margin-left: 40px;
 }
 
+/*header de la page about*/
+#headerabout2 {
+	justify-content: flex-end;
+}
+
 
 #logo{
 	position: fixed;
