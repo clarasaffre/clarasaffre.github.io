@@ -527,17 +527,17 @@ aside h3{
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 4vh;
 }
 
 #photo-rang-deux img{
 	width: 34.3vw;
-}x
+}
 
 #container-all-projet{
-	border: black solid 1px;
+/*	border: black solid 1px;*/
 	margin: auto;
 	width: 95%;
-	margin-bottom: 10vh;
 
 }
 
@@ -667,6 +667,7 @@ aside h3{
 
 #andersen-rang-cinq{
 	width: 100%;
+	margin-bottom: 4vh;
 }
 
 #andersen-rang-cinq img{
@@ -717,6 +718,7 @@ aside h3{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 4vh;
 }
 
 #calendrier-rang-trois img{
@@ -808,6 +810,7 @@ aside h3{
 
 #gif2{
 	margin:  auto;
+	margin-bottom: 4vh;
 /*	border: 1px solid red;*/
 /*	width: 80vh;*/
 }
@@ -815,6 +818,10 @@ aside h3{
 #gif2 img{
 	width: 75vh;
 }
+
+
+
+
 
 	/*cycle*/
 
@@ -846,6 +853,10 @@ height: 50%;
 	display: flex;
 	justify-content: space-around;
 }
+
+
+
+
 
 /*processing*/
 
