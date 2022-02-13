@@ -289,72 +289,72 @@ header img{
 }
 
 #photo-text:hover{
-background-image: url(../import/source-color.jpg);
+background-image: url(../import/webp/source-color_resultat.webp);
 background-size: cover;
 background-position: center;
 }
 
 #experimentation-text:hover{
-background-image: url(../import/andersen-color.png);
+background-image: url(../import/webp/andersen-color_resultat.webp);
 background-size: cover;
 }
 
 #calendrier-text:hover{
-background-image: url(../import/calendrier-color.png);
+background-image: url(../import/webp/calendrier-color_resultat.webp);
 background-size: cover;
 background-position: center;
 }
 
 #blindtest-text:hover{
-background-image: url(../import/blindtest-color.jpg);
+background-image: url(../import/webp/blindtest-color_resultat.webp);
 background-size: cover;
 }
 
 #cycle-text:hover{
-background-image: url(../import/grid-color.png);
+background-image: url(../import/webp/grid-color_resultat.webp);
 background-size: cover;
 }
 
 #processing-text:hover{
-background-image: url(../import/processing-color.png);
+background-image: url(../import/webp/processing-color_resultat.webp);
 background-size: cover;
 background-position: center;
 }
 
 
 #photo-text{
-background-image: url(../import/source.png);
+background-image: url(../import/webp/source_resultat.webp);
 background-size: cover;
 background-position: center;
 }
 
 #experimentation-text{
-background-image: url(../import/andersen.png);
+background-image: url(../import/webp/andersen_resultat.webp);
 background-size: cover;
 }
 
 #calendrier-text{
-background-image: url(../import/calendrier.png);
+background-image: url(../import/webp/calendrier_resultat.webp);
 background-size: cover;
 background-position: center;
 }
 
 #blindtest-text{
-background-image: url(../import/blindtest.png);
+background-image: url(../import/webp/blindtest_resultat.webp);
 background-size: cover;
 background-position: center;
 
 }
 
 #cycle-text{
-background-image: url(../import/grid.png);
+background-image: url(../import/webp/grid_resultat.webp);
 background-size: cover;
 background-position: center;
 
 }
 
 #processing-text{
-	background-image: url(../import/processing.png);
+	background-image: url(../import/webp/processing_resultat.webp);
 	background-size: cover;
 	background-position: center;
 }
@@ -703,13 +703,13 @@ aside h3{
 /*	border: 1px solid black;*/
 	height: 80vh;
 	width: 52vw;
-	background-image: url(../import/arctic_station_noir.png);
+	background-image: url(../import/webp/arctic_station_noir_resultat.webp);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 #bicolor:hover{
-	background-image: url(../import/arctic_station_couleur.png);
+	background-image: url(../import/webp/arctic_station_couleur_resultat.webp);
 }
 
 #calendrier-rang-trois{
@@ -791,13 +791,13 @@ aside h3{
 /*	border: 1px solid green;*/
 	height: 60vh;
 	width: 50vw;
-	background-image: url(../import/wireframe2.png);
+	background-image: url(../import/webp/wireframe2_resultat.webp);
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #before-after:hover{
-	background-image: url(../import/site2.png);
+	background-image: url(../import/webp/site2_resultat.webp);
 }
 
 #blindtest-rang-six{
