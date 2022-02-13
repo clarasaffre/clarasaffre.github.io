@@ -292,33 +292,39 @@ header img{
 background-image: url(../import/webp/source-color_resultat.webp);
 background-size: cover;
 background-position: center;
+animation: saut linear 1s infinite;
 }
 
 #experimentation-text:hover{
 background-image: url(../import/webp/andersen-color_resultat.webp);
 background-size: cover;
+animation: saut linear 1s infinite;
 }
 
 #calendrier-text:hover{
 background-image: url(../import/webp/calendrier-color_resultat.webp);
 background-size: cover;
 background-position: center;
+animation: saut linear 1s infinite;
 }
 
 #blindtest-text:hover{
 background-image: url(../import/webp/blindtest-color_resultat.webp);
 background-size: cover;
+animation: saut linear 1s infinite;
 }
 
 #cycle-text:hover{
 background-image: url(../import/webp/grid-color_resultat.webp);
 background-size: cover;
+animation: saut linear 1s infinite;
 }
 
 #processing-text:hover{
 background-image: url(../import/webp/processing-color_resultat.webp);
 background-size: cover;
 background-position: center;
+animation: saut linear 1s infinite;
 }
 
 
