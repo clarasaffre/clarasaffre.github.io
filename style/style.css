@@ -145,7 +145,7 @@ header{
 	display: flex;
 	justify-content: space-between;	
 	align-items: center;
-	height: 96px;
+	height: 10vh;
 	width: 94vw;
 	position: fixed;
 	left: calc(100vw/2 - 94vw/2);
@@ -187,7 +187,7 @@ header img{
 #logo{
 	position: fixed;
 	z-index: 30;
-	left: calc(50vw - 140px);
+	left: 10vh;
 	top: 20px;
 	width: 280px;
 }
