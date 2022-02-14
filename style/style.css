@@ -115,8 +115,8 @@
 .container::-webkit-scrollbar {
   -webkit-appearance: none;
   border: 1px solid #ff4219 ;
-
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: #ff4219;
 }
@@ -187,7 +187,7 @@ header img{
 #logo{
 	position: fixed;
 	z-index: 30;
-	left: 10vh;
+	left: 12vh;
 	top: 20px;
 	width: 280px;
 }
@@ -268,7 +268,7 @@ header img{
 /*	border: 1px solid #ff4219;*/
 	height: 80vh;
 	width: 155vw;
-	margin-top: calc(100vh/2 - 22vw + 2vh);
+	margin-top: 12vh;
 	display: flex;
 	ms-display: flex;
 /*	grid-template-columns: 1fr 1fr 1fr 1fr;
