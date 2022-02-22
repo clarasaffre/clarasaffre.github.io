@@ -235,7 +235,7 @@ header img{
 
 /*phrase d'intro*/
 #intro {
-	border: 1px solid red;
+/*	border: 1px solid red;*/
 	color: #ff4219;
 	font-family: 'cyrene';
 	margin-top: calc(100vh / 2 - 30vh /2);
@@ -249,7 +249,7 @@ header img{
 
 /*scroll to see more*/
 #scroll {
-	border: solid black 1px;
+/*	border: solid black 1px;*/
 	animation:  saut 1s ease-in-out infinite; /*petit saut animation*/
 	color: #ff4219;
 	font-family: 'sporting';
@@ -258,7 +258,7 @@ header img{
 	margin-right: auto;
 }
 #scroll h1{
-border: solid red 1px;
+/*border: solid red 1px;*/
 }
 
 /*menu projets*/

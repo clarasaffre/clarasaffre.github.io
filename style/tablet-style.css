@@ -87,13 +87,15 @@
 
 /*phrase d'intro*/
 #intro {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	color: #ff4219;
 	font-family: 'cyrene';
-	margin-top: calc(100vh / 2 - 30vh /2);
+	padding: 30px;
+	margin-top: 27vh;
+	/*margin-top: calc(100vh / 2 - 30vh /2);*/
 	margin-bottom: 5vh;
-	font-size: 4em;
-	height: 30vh;
+	font-size: 5em;
+	height: 40vh;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	animation: appear 2s ease-in;
@@ -101,7 +103,7 @@
 
 /*scroll to see more*/
 #scroll {
-	border: solid black 1px;
+/*	border: solid black 1px;*/
 	animation:  saut 1s ease-in-out infinite; /*petit saut animation*/
 	color: #ff4219;
 	font-family: 'sporting';
@@ -110,7 +112,8 @@
 	margin-right: auto;
 }
 #scroll h1{
-border: solid red 1px;
+/*border: solid red 1px*/;
+	font-size: 1.3em;
 }
 
 
