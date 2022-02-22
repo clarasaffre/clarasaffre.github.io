@@ -472,7 +472,11 @@ background-position: center;
 	width: auto;
 }
 
+/*span qui clignotte dans about*/
 
+#stage:hover{
+	animation: appear 0.4s ease-in-out 3;
+}
 
 
 
