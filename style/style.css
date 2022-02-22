@@ -172,22 +172,20 @@ header img{
 
 /*header de la page about*/
 #headerabout2 {
-	justify-content: flex-end;
+	/*border: solid 1px black;*/
+	justify-content: space-between;
 	z-index: 20;
-	position: fixed;
-}
-
-#headerabout2 a{
-	margin-left: 40px;
+	width: 95;
 }
 
 
+/*logo de la page principale*/
 #logo{
 	position: fixed;
 	z-index: 30;
-	left: 12vh;
+	left: 5vh;
 	top: 20px;
-	width: 280px;
+	width: 200px;
 }
 
 
@@ -195,9 +193,25 @@ header img{
 	width: 100%;
 /*	border: solid 1px black;*/
 	justify-content: space-between;
+}
 
+/*logo des pages projets*/
+#logo1{
+/*	border: solid 1px red;*/
+	z-index: 30;
+	width: 25%;
+	position: fixed;
+	left: 3vw;
+}
+
+#logo1 img{
+/*	border: solid 1px black;*/
+	width: 12vw;
+	margin-top: 2vh;
 
 }
+
+
 
 #box-button{
 /*	border: 1px solid #ff4219;*/
