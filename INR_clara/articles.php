@@ -46,7 +46,7 @@
       Étape&#8239: édition, Sept - Oct 2018.
     </h5>
     
-    <blockquote cit="#">Des graphistes s'emparent de l'œuvre d'art et des artistes utilisent dans leur travails des éléments appartenant à la culture propre du graphisme ou y faisant référence</blockquote>
+    <blockquote cit="#">Des graphistes s'emparent de l'œuvre d'art et des artistes utilisent dans leur travaux des éléments appartenant à la culture propre du graphisme ou y faisant référence</blockquote>
     
     <p> 
       Lionel Bovier, commissaire d'exposition indépendant du MAMCO de Genève parle du choix d'intégrer une direction artistique au livre d'art. Comment restituer une exposition dans une édition qui fait sens&#8239? Comment le designer s'empare du rôle d'auteur&#8239?
