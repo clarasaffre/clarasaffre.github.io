@@ -13,7 +13,7 @@
   <aside>    
     <h2>
       Clara Saffre 
-      <a href="https://clarasaffre.github.io/accueil.html" target="_blank">portfolio</a>
+      <a href="https://clarasaffre.github.io/accueil.html" target="_blank" title="mon portfolio">portfolio</a>
     </h2>
     <p>
       J'essaye de comprendre quels sont les limites et relations entre graphisme et art
@@ -37,7 +37,7 @@
     </h3>
 
     <h4>
-      <a href="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html" target="_blank">
+      <a href="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html" target="_blank" title="retrouve-le ici" >
         Design graphique et Art contemporain friction, 
       </a>
     </h4> 
@@ -46,7 +46,7 @@
       Étape&#8239: édition, Sept - Oct 2018.
     </h5>
     
-    <blockquote cit="#">Des graphistes s'emparent de l'œuvre d'art et des artistes utilisent dans leur travaux des éléments appartenant à la culture propre du graphisme ou y faisant référence</blockquote>
+    <blockquote cit="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html">Des graphistes s'emparent de l'œuvre d'art et des artistes utilisent dans leur travaux des éléments appartenant à la culture propre du graphisme ou y faisant référence</blockquote>
     
     <p> 
       Lionel Bovier, commissaire d'exposition indépendant du MAMCO de Genève parle du choix d'intégrer une direction artistique au livre d'art. Comment restituer une exposition dans une édition qui fait sens&#8239? Comment le designer s'empare du rôle d'auteur&#8239?
@@ -66,7 +66,7 @@
     </h3>
 
     <h4>
-      <a href="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html" target="_blank">
+      <a href="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html" target="_blank" title="retrouve-le ici">
         L'art est une rencontre, 
       </a>
     </h4> 
@@ -75,7 +75,7 @@
       Étape&#8239: édition, n°245, Sept - Oct 2018.
     </h5>
     
-    <blockquote cit="#">Il y a un moment où nous nous sommes mis à travailler l'exposition en tant que format et non comme des designers dessinent une signalétique dans une exposition d'art contemporain</blockquote>
+    <blockquote cit="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html">Il y a un moment où nous nous sommes mis à travailler l'exposition en tant que format et non comme des designers dessinent une signalétique dans une exposition d'art contemporain</blockquote>
     
     <p> 
       Dans une interview entre Caroline Bouige et l'un des membre de M/M, Mathias Augustyniak, le graphiste revient sur des projets phares réalisés pour des expositions d'art contemporain. Le studio M/M a cette position particulière dans le champ du design graphique et de l'art contemporain. Ils se placent toujours dans une position d'auteur questionnant la relation entre «&#8239l'œuvre, l'espace et son public&#8239». Comment travailler l'exposition en tant que format et non comme des designers dessinent une signalétique dans une exposition d'art contemporain&#8239? Comment introduire ses productions graphiques dans une autre expositions, en harmonie&#8239? Comment recontextualiser des productions graphiques dans une exposition&#8239? 
@@ -95,7 +95,7 @@
     </h3>
 
     <h4>
-      <a href="http://www.cairn.info/revue-marges-2019-2-page-30.htm" target="_blank">
+      <a href="http://www.cairn.info/revue-marges-2019-2-page-30.htm" target="_blank" title="retrouve-le ici">
         Le graphisme sur le terrain de l’art contemporain&#8239: le cas de M/M (&#8239Paris&#8239), 
       </a>
     </h4> 
@@ -124,7 +124,7 @@
     </h3>
 
     <h4>
-      <a href="https://blogs.esam-c2.fr/design-graphique/intriguer-ou-le-paradoxe-du-graphiste-de-jean-francois-lyotard/" target="_blank">
+      <a href="https://blogs.esam-c2.fr/design-graphique/intriguer-ou-le-paradoxe-du-graphiste-de-jean-francois-lyotard/" target="_blank" title="retrouve-le ici">
         Intriguer, ou le paradoxe du graphiste, 
       </a>
     </h4> 
@@ -153,7 +153,7 @@
     </h3>
 
     <h4>
-      <a href="https://revue-faire.eu/produit/n11-a-printed-exhibition-vol-19-by-klaus-scherubel-title-of-the-show-by-julia-born-and-thereherethenthere-by-simon-starling-author-jerome-dupeyrat/" target="_blank">
+      <a href="https://revue-faire.eu/produit/n11-a-printed-exhibition-vol-19-by-klaus-scherubel-title-of-the-show-by-julia-born-and-thereherethenthere-by-simon-starling-author-jerome-dupeyrat/" target="_blank" title="retrouve-le ici">
         «&#8239Vol 13&#8239» by Klau Scherübel
         «&#8239Title of the Show&#8239» by Julia Born 
         and «&#8239THEREHERETHENTHERE&#8239» by Simon Starling,       
