@@ -18,7 +18,7 @@
     <p>
       J'essaye de comprendre quelles sont les limites et relations entre graphisme et art
       en m'interessant à l'exposition du graphisme contemporain  <!-- questionnant le moment où le graphisme devient de l'art contemporain -->.<br>
-      Qu'est-ce que produit le déplacement d'un objet graphique dans un lieu d'exposition&#8239?
+      Qu'est-ce que produit le déplacement d'un objet graphique dans un lieu d'exposition&#8239? 
     </p>
   </aside>
 
@@ -31,7 +31,7 @@
  /_/   \_\_|   \__|_|\___|_|\___|
  -->
 
-  <article class="filterDiv art tag2">
+  <article class="filterDiv art designers">
     <h3>
       BOUIGE, Caroline.  
     </h3>
@@ -130,7 +130,7 @@
     </h4> 
     
     <h5>
-      Blogs esam, 2019.
+      Vive les graphistes&#8239!&#8239: Petit inventaire du graphisme français&#8239: [&#8239exposition&#8239] Centre Georges Pompidou, à Paris, 19 septembre - 28 octobre 1990, Paris&#8239: Syndicat National des Graphistes, 1990.
     </h5>
     
     <blockquote cit="https://blogs.esam-c2.fr/design-graphique/intriguer-ou-le-paradoxe-du-graphiste-de-jean-francois-lyotard/">En visant le plaisir, l'obiet appartient à l'esthétique. En visant la croyance, il relève de la rhétorique.</blockquote>
@@ -173,6 +173,65 @@
 
     <h6> 
       lu le 25 septembre 2022  
+    </h6>
+  
+  </article>
+
+
+
+  <article class="filterDiv designers exposition">
+    <h3>
+      BIL'AK, Peter.  
+    </h3>
+
+    <h4>
+      <a href="https://www.typotheque.com/articles/graphic_design_in_the_white_cube" target="_blank" title="retrouve-le ici">
+        Graphic Design in the White Cube,       
+      </a>
+    </h4> 
+    
+    <h5>
+      Typotheque, 2006.
+    </h5>
+    
+    <blockquote cit="https://www.typotheque.com/articles/graphic_design_in_the_white_cube">Organizing graphic design exhibitions is always problematic&#8239: graphic design does not exist in a vacuum, and the walls of the exhibition space effectively isolate the work of design from the real world.</blockquote>
+    
+    <p> 
+      Comme l'a déjà évoqué Jean-François Lyotard, le design graphique ne peut pas exister en-dehors de tout contexte de production, alors comment y remédier&#8239? Recontextualiser son travail, oui. Mais le designer doit-il se forcer à indiquer que son travail a été fait pour vendre tel service&#8239? Ici Peter Bil'ak propose une autre alternative&#8239: la réalisation d'un projet auto-initié spécialement pour l'exposition. De ce fait le graphiste-auteur peut expliquer tout le processus de réalisation du projet présenté dans le cadre même de l'exposition. 
+    </p>
+   
+
+    <h6> 
+      consulté le 22 septembre 2022  
+    </h6>
+  
+  </article>
+
+
+  <article class="filterDiv designers exposition">
+    <h3>
+      WLASSIKOFF, Michel.  
+    </h3>
+
+    <h4>
+      <a href="https://www.typotheque.com/articles/graphic_design_in_the_white_cube" target="_blank" title="retrouve-le ici">
+        Exposer/S'exposer&#8239: Galerie Anatome - Design graphique,       
+      </a>
+    </h4> 
+    
+    <h5>
+      Édition Panama, 13 décembre 2005.
+    </h5>
+    
+    <blockquote cit="https://www.typotheque.com/articles/graphic_design_in_the_white_cube">La diffusion du graphisme ne peut pas encore s'appuyer sur un corpus théorique en France, concernant notamment la création comtemporaine, lequel manque singulièrement sa compréhension en tant que pratique graphique</blockquote>
+    
+    <p> 
+      Pourquoi exposer du graphique contemporain&#8239? C'est ce à quoi tente de répondre la Galerie Anatome. Fondée le 29 Septembre 1999, la galerie est pionnière dans l'exposition de graphisme sur Paris. En réunissant les travaux de divers graphistes connus ou non, celle-ci tente de valoriser «&#8239l'art du graphisme&#8239», aux yeux de tous. Quels avantages et inconvénients apporte cette nouvelle façon de montrer le graphisme&#8239? Qu'est-ce qui différencie cette galerie d'une galerie d'art contemporaine&#8239?
+    </p>
+   
+
+    <h6> 
+      lu le 29 septembre 2022  
     </h6>
   
   </article>
