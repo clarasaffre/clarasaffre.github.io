@@ -18,7 +18,7 @@
     <p>
       J'essaye de comprendre quelles sont les limites et relations entre graphisme et art
       en m'interessant à l'exposition du graphisme contemporain  <!-- questionnant le moment où le graphisme devient de l'art contemporain -->.<br>
-      Qu'est-ce que produit le déplacement d'un objet graphique dans un lieu d'exposition&#8239? 
+      Qu'est-ce que produit le déplacement d'un objet graphique dans un lieu d'exposition&#8239? Quels sont les problèmes qu'a le graphisme à être exposé&#8239? En quoi la recontextualisation de ses projets est important en graphisme&#8239?
     </p>
   </aside>
 
@@ -43,7 +43,7 @@
     </h4> 
     
     <h5>
-      Étapes&#8239: édition, Sept - Oct 2018.
+      étapes: édition, n°245, Sept - Oct 2018.
     </h5>
     
     <blockquote cit="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html">Des graphistes s'emparent de l'œuvre d'art et des artistes utilisent dans leur travaux des éléments appartenant à la culture propre du graphisme ou y faisant référence</blockquote>
@@ -72,10 +72,10 @@
     </h4> 
     
     <h5>
-      Étapes&#8239: édition, n°245, Sept - Oct 2018.
+      étapes: édition, n°245, Sept - Oct 2018.
     </h5>
     
-    <blockquote cit="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html">Il y a un moment où nous nous sommes mis à travailler l'exposition en tant que format et non comme des designers dessinent une signalétique dans une exposition d'art contemporain.</blockquote>
+    <blockquote cit="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html">Il y a un moment où nous nous sommes mis à travailler l'exposition en tant que format et non comme des designers dessinent une signalétique dans une exposition d'art contemporain</blockquote>
     
     <p> 
       Dans une interview entre Caroline Bouige et l'un des membres du collectif M/M, Mathias Augustyniak, le graphiste revient sur des projets phares réalisés pour des expositions d'art contemporain. Le studio M/M a cette position particulière dans le champ du design graphique et de l'art contemporain. Ils se placent toujours dans une position d'auteur questionnant la relation entre «&#8239l'œuvre, l'espace et son public&#8239». Comment travailler l'exposition en tant que format et non comme des designers dessinent une signalétique dans une exposition d'art contemporain&#8239? Comment introduire ses productions graphiques dans une autre expositions, en harmonie&#8239? Comment recontextualiser des productions graphiques dans une exposition&#8239? 
@@ -104,10 +104,10 @@
       Revue Marges, 2019.
     </h5>
     
-    <blockquote cit="http://www.cairn.info/revue-marges-2019-2-page-30.htm">Nous voulions débarrasser le graphisme de son image de prestataire de service destiné à favoriser la médiation de l’art dans les réseaux de communication.</blockquote>
+    <blockquote cit="http://www.cairn.info/revue-marges-2019-2-page-30.htm">Nous voulions débarrasser le graphisme de son image de prestataire de service destiné à favoriser la médiation de l’art dans les réseaux de communication. (&#8239Mathias Augustyniak&#8239)</blockquote>
     
     <p> 
-      Dans cette étude de cas, Yann Aucompte tente de comprendre comment la pratique graphique du studio M/M tend vers l'art contemporain. Le studio M/M possède un statut particulier appelé «&#8239graphiste-auteur&#8239» qui tente de se libérer des contraintes du «&#8239graphisme [à l'] image de prestataire de service destiné à favoriser la médiation de l’art dans les réseaux de communication&#8239» en s'émancipant du rôle fonctionnaliste de la communication (&#8239invitant le lecteur à décrypter&#8239), en utilisant des techniques analogues à l'art (&#8239peinture, photographie…&#8239)Mais le duo ne se serait-il juste pas emparé de la communication «&#8239destinée au grand public&#8239» pour véhiculer leur expression artistique&#8239? Finalement, M/M ne se serait-il pas fait "enrôlé" par une autre institution&#8239? 
+      Dans cette étude de cas, Yann Aucompte tente de comprendre comment la pratique graphique du studio M/M tend vers l'art contemporain. Le studio M/M possède un statut particulier appelé «&#8239graphiste-auteur&#8239» qui tente de se libérer des contraintes du «&#8239graphisme [à l'] image de prestataire de service destiné à favoriser la médiation de l’art dans les réseaux de communication&#8239» en s'émancipant du rôle fonctionnaliste de la communication (&#8239invitant le lecteur à décrypter&#8239), en utilisant des techniques analogues à l'art (&#8239peinture, photographie…&#8239). Mais le duo ne se serait-il juste pas emparé de la communication «&#8239destinée au grand public&#8239» pour véhiculer leur expression artistique&#8239? Finalement, M/M ne se serait-il pas fait "enrôlé" par une autre institution&#8239? 
     </p>
    
 
@@ -167,7 +167,7 @@
     <blockquote cit="https://revue-faire.eu/produit/n11-a-printed-exhibition-vol-19-by-klaus-scherubel-title-of-the-show-by-julia-born-and-thereherethenthere-by-simon-starling-author-jerome-dupeyrat/">Comment ce nouveau modèle structurel pourrait mettre à plat les hiérarchies établies entre une œuvre, une exposition et une édition et permettre une autre réflexion sur ces catégories, leurs espaces de monstration respectifs ainsi que les rapports qui existent entre eux&#8239?</blockquote>
     
     <p> 
-      Dans ce numéro de la revue Faire, il y est présenté 3 cas de figures différents sur le livre-galerie à travers 3 expositions. Comment lier travaux, édition et espace? Je retiens surtout l'exposition «&#8239Title of the Show&#8239» de Julia Born à la Galerie für Zeitgenössische Kunst de Leipzig. Ici, la designeuse pense sa monographie comme un catalogue d'exposition à l'échelle d'une exposition. Sur chaque mur y est présenté une page de ce livre géant. Numérotés, ils guident le spectateur dans l'espace et permet son adaptation imprimé. Il n'y a aucun travail de mise en page dans l'édition imprimée si ce n'est que l'utilisation des photos de l'exposition qui mettent déjà en forme le travaille de Julia Born. Comment penser l'édition comme un espace d'exposition pour le graphiste&#8239? Pourquoi l'édition est un support favorisé par les graphistes&#8239?
+      Dans ce numéro de la revue Faire, il y est présenté 3 cas de figures différents sur le livre-galerie à travers 3 expositions. Comment lier travaux, édition et espace&#8239? Je retiens surtout l'exposition «&#8239Title of the Show&#8239» de Julia Born à la Galerie für Zeitgenössische Kunst de Leipzig. Ici, la designeuse pense sa monographie comme un catalogue d'exposition à l'échelle d'une exposition. Sur chaque mur y est présenté une page de ce livre géant. Numérotés, ils guident le spectateur dans l'espace et permet son adaptation imprimé. Il n'y a aucun travail de mise en page dans l'édition imprimée si ce n'est que l'utilisation des photos de l'exposition qui mettent déjà en forme le travail de Julia Born. Comment penser l'édition comme un espace d'exposition pour le graphiste&#8239? Pourquoi l'édition est un support favorisé par les graphistes&#8239?
     </p>
    
 
@@ -194,7 +194,7 @@
       Typotheque, 2006.
     </h5>
     
-    <blockquote cit="https://www.typotheque.com/articles/graphic_design_in_the_white_cube">Organizing graphic design exhibitions is always problematic&#8239: graphic design does not exist in a vacuum, and the walls of the exhibition space effectively isolate the work of design from the real world.</blockquote>
+    <blockquote cit="https://www.typotheque.com/articles/graphic_design_in_the_white_cube">Organizing graphic design exhibitions is always problematic&#8239: graphic design does not exist in a vacuum, and the walls of the exhibition space effectively isolate the work of design from the real world</blockquote>
     
     <p> 
       Comme l'a déjà évoqué Jean-François Lyotard, le design graphique ne peut pas exister en-dehors de tout contexte de production, alors comment y remédier&#8239? Recontextualiser son travail, oui. Mais le designer doit-il se forcer à indiquer que son travail a été fait pour vendre tel service&#8239? Ici Peter Bil'ak propose une autre alternative&#8239: la réalisation d'un projet auto-initié spécialement pour l'exposition. De ce fait le graphiste-auteur peut expliquer tout le processus de réalisation du projet présenté dans le cadre même de l'exposition. 
@@ -214,7 +214,7 @@
     </h3>
 
     <h4>
-      <a href="https://www.typotheque.com/articles/graphic_design_in_the_white_cube" target="_blank" title="retrouve-le ici">
+      <a href="https://livre.fnac.com/a1765001/Michel-Wlassikoff-Exposer-S-exposer" target="_blank" title="retrouve-le ici">
         Exposer/S'exposer&#8239: Galerie Anatome - Design graphique,       
       </a>
     </h4> 
@@ -223,7 +223,7 @@
       Édition Panama, 13 décembre 2005.
     </h5>
     
-    <blockquote cit="https://www.typotheque.com/articles/graphic_design_in_the_white_cube">La diffusion du graphisme ne peut pas encore s'appuyer sur un corpus théorique en France, concernant notamment la création comtemporaine, lequel manque singulièrement sa compréhension en tant que pratique graphique</blockquote>
+    <blockquote cit="https://livre.fnac.com/a1765001/Michel-Wlassikoff-Exposer-S-exposer">La diffusion du graphisme ne peut pas encore s'appuyer sur un corpus théorique en France, concernant notamment la création comtemporaine, lequel manque singulièrement sa compréhension en tant que pratique graphique</blockquote>
     
     <p> 
       Pourquoi exposer du graphique contemporain&#8239? C'est ce à quoi tente de répondre la Galerie Anatome. Fondée le 29 Septembre 1999, la galerie est pionnière dans l'exposition de graphisme sur Paris. En réunissant les travaux de divers graphistes connus ou non, celle-ci tente de valoriser «&#8239l'art du graphisme&#8239», aux yeux de tous. Quels avantages et inconvénients apporte cette nouvelle façon de montrer le graphisme&#8239? Qu'est-ce qui différencie cette galerie d'une galerie d'art contemporaine&#8239?
