@@ -17,8 +17,8 @@
     </h2>
     <p>
       J'essaye de comprendre quelles sont les limites et relations entre graphisme et art
-      en m'interessant à l'exposition du graphisme contemporain  <!-- questionnant le moment où le graphisme devient de l'art contemporain -->.<br>
-      Qu'est-ce que produit le déplacement d'un objet graphique dans un lieu d'exposition&#8239? Quels sont les problèmes qu'a le graphisme à être exposé&#8239? En quoi la recontextualisation de ses projets est important en graphisme&#8239?
+      en m'interessant à l'exposition du graphisme contemporain.  <!-- questionnant le moment où le graphisme devient de l'art contemporain --><br><br>
+      <span id="question">Qu'est-ce que produit le déplacement d'un objet graphique dans un lieu d'exposition&#8239? Quels sont les problèmes liés à l'exposition de graphisme&#8239? En quoi la recontextualisation des projets est-elle importante en graphisme&#8239? Comment le graphiste se réapproprie l'exposition comme support pour exprimer une critique&#8239?</span>
     </p>
   </aside>
 
@@ -43,7 +43,7 @@
     </h4> 
     
     <h5>
-      étapes: édition, n°245, Sept - Oct 2018.
+      étapes:, n°245, Sept - Oct 2018.
     </h5>
     
     <blockquote cit="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html">Des graphistes s'emparent de l'œuvre d'art et des artistes utilisent dans leur travaux des éléments appartenant à la culture propre du graphisme ou y faisant référence</blockquote>
@@ -72,7 +72,7 @@
     </h4> 
     
     <h5>
-      étapes: édition, n°245, Sept - Oct 2018.
+      étapes:, n°245, Sept - Oct 2018.
     </h5>
     
     <blockquote cit="https://fr.shopping.rakuten.com/offer/buy/3043780638/etapes-numero-245-format-broche.html">Il y a un moment où nous nous sommes mis à travailler l'exposition en tant que format et non comme des designers dessinent une signalétique dans une exposition d'art contemporain</blockquote>
@@ -107,7 +107,7 @@
     <blockquote cit="http://www.cairn.info/revue-marges-2019-2-page-30.htm">Nous voulions débarrasser le graphisme de son image de prestataire de service destiné à favoriser la médiation de l’art dans les réseaux de communication. (&#8239Mathias Augustyniak&#8239)</blockquote>
     
     <p> 
-      Dans cette étude de cas, Yann Aucompte tente de comprendre comment la pratique graphique du studio M/M tend vers l'art contemporain. Le studio M/M possède un statut particulier appelé «&#8239graphiste-auteur&#8239» qui tente de se libérer des contraintes du «&#8239graphisme [à l'] image de prestataire de service destiné à favoriser la médiation de l’art dans les réseaux de communication&#8239» en s'émancipant du rôle fonctionnaliste de la communication (&#8239invitant le lecteur à décrypter&#8239), en utilisant des techniques analogues à l'art (&#8239peinture, photographie…&#8239). Mais le duo ne se serait-il juste pas emparé de la communication «&#8239destinée au grand public&#8239» pour véhiculer leur expression artistique&#8239? Finalement, M/M ne se serait-il pas fait "enrôlé" par une autre institution&#8239? 
+      Dans cette étude de cas, Yann Aucompte tente de comprendre comment la pratique graphique du studio M/M tend vers l'art contemporain. Le studio M/M possède un statut particulier appelé «&#8239graphiste-auteur&#8239» qui tente de se libérer des contraintes du «&#8239graphisme [à l'] image de prestataire de service destiné à favoriser la médiation de l’art dans les réseaux de communication&#8239» en s'émancipant du rôle fonctionnaliste de la communication (&#8239invitant le lecteur à décrypter&#8239), en utilisant des techniques analogues à l'art (&#8239peinture, photographie…&#8239). Mais le duo ne se serait-il juste pas emparé de la communication «&#8239destinée au grand public&#8239» pour véhiculer leur expression artistique&#8239? Finalement, M/M ne se serait-il pas fait «&#8239enrôlé&#8239» par une autre institution&#8239? 
     </p>
    
 
@@ -154,9 +154,9 @@
 
     <h4>
       <a href="https://revue-faire.eu/produit/n11-a-printed-exhibition-vol-19-by-klaus-scherubel-title-of-the-show-by-julia-born-and-thereherethenthere-by-simon-starling-author-jerome-dupeyrat/" target="_blank" title="retrouve-le ici">
-        «&#8239Vol 13&#8239» by Klau Scherübel
-        «&#8239Title of the Show&#8239» by Julia Born 
-        and «&#8239THEREHERETHENTHERE&#8239» by Simon Starling,       
+        <i>Vol 13</i> by Klau Scherübel
+        <i>Title of the Show</i> by Julia Born 
+        and <i>THEREHERETHENTHERE</i> by Simon Starling,       
       </a>
     </h4> 
     
@@ -194,10 +194,10 @@
       Typotheque, 2006.
     </h5>
     
-    <blockquote cit="https://www.typotheque.com/articles/graphic_design_in_the_white_cube">Organizing graphic design exhibitions is always problematic&#8239: graphic design does not exist in a vacuum, and the walls of the exhibition space effectively isolate the work of design from the real world</blockquote>
+    <blockquote cit="https://www.typotheque.com/articles/graphic_design_in_the_white_cube">Organizing graphic design exhibitions is always problematic: graphic design does not exist in a vacuum, and the walls of the exhibition space effectively isolate the work of design from the real world</blockquote>
     
     <p> 
-      Comme l'a déjà évoqué Jean-François Lyotard, le design graphique ne peut pas exister en-dehors de tout contexte de production, alors comment y remédier&#8239? Recontextualiser son travail, oui. Mais le designer doit-il se forcer à indiquer que son travail a été fait pour vendre tel service&#8239? Ici Peter Bil'ak propose une autre alternative&#8239: la réalisation d'un projet auto-initié spécialement pour l'exposition. De ce fait le graphiste-auteur peut expliquer tout le processus de réalisation du projet présenté dans le cadre même de l'exposition. 
+      Comme l'a déjà évoqué Jean-François Lyotard, le design graphique ne peut pas exister en-dehors de tout contexte de production, alors comment y remédier&#8239? Recontextualiser son travail, oui. Mais le designer doit-il se forcer à indiquer que son travail a été fait pour vendre tel service&#8239? Ici Peter Bil'ak propose une autre alternative&#8239: la réalisation d'un projet auto-réflectif spécialement pour l'exposition. De ce fait le graphiste-auteur ou graphiste-curateur peut expliquer tout le processus de réalisation du projet présenté dans le cadre même de l'exposition. 
     </p>
    
 
@@ -226,7 +226,7 @@
     <blockquote cit="https://livre.fnac.com/a1765001/Michel-Wlassikoff-Exposer-S-exposer">La diffusion du graphisme ne peut pas encore s'appuyer sur un corpus théorique en France, concernant notamment la création comtemporaine, lequel manque singulièrement sa compréhension en tant que pratique graphique</blockquote>
     
     <p> 
-      Pourquoi exposer du graphique contemporain&#8239? C'est ce à quoi tente de répondre la Galerie Anatome. Fondée le 29 Septembre 1999, la galerie est pionnière dans l'exposition de graphisme sur Paris. En réunissant les travaux de divers graphistes connus ou non, celle-ci tente de valoriser «&#8239l'art du graphisme&#8239», aux yeux de tous. Quels avantages et inconvénients apporte cette nouvelle façon de montrer le graphisme&#8239? Qu'est-ce qui différencie cette galerie d'une galerie d'art contemporaine&#8239?
+      Pourquoi exposer du graphique contemporain&#8239? C'est ce à quoi tente de répondre la Galerie Anatome. Fondée le 29 Septembre 1999, la galerie est pionnière dans l'exposition de graphisme sur Paris. En réunissant les travaux de divers graphistes connus ou non, celle-ci tente de valoriser «&#8239l'art du graphisme&#8239», aux yeux de tous. Quels avantages et inconvénients apportent cette nouvelle façon de montrer le graphisme&#8239? Qu'est-ce qui différencie cette galerie d'une galerie d'art contemporaine&#8239?
     </p>
    
 
@@ -234,8 +234,65 @@
       lu le 29 septembre 2022  
     </h6>
   
+
   </article>
 
+  <article class="filterDiv designers graphisme">
+    <h3>
+      ROCK, Michael.  
+    </h3>
+
+    <h4>
+      <a href="https://2x4.org/ideas/1996/designer-as-author/" target="_blank" title="retrouve-le ici">
+        Designer as Author,       
+      </a>
+    </h4> 
+    
+    <h5>
+      Eye Magazine, n°20, 1996.
+    </h5>
+    
+    <blockquote cit="https://2x4.org/ideas/1996/designer-as-author/">Technical proficiency could be fulfilled by any number of practitioners, but couple technical proficiency with a signature style and the field narrows</blockquote>
+    
+    <p> 
+      Qu'est-ce qu'un auteur&#8239? C'est la question que se pose Michael Rock. Il entame une fine analyse reprenant les origines du terme et plusieurs exemples et contre-exemples liés à la l'auctoriat dans les domaines de la science, la littérature et du cinéma. La défintion d'auteur aura différentes interprétation mais trois critères semblent être sans équivoque&#8239: l'expertise technique, la signature stylistique et le choix des projets et le traitement. Appliqués à la base au œuvre cinématographiques, ces critères peuvent être transposés au design graphique. Au-delà de la défintion de ce qu'est un auteur, Rock expose également les débats et paradoxes liés à ce «&#8239titre&#8239» ainsi qu'une distinction entre «&#8239trois alternative models for design that attempt to describe the activity as it exists and as it could evolve&#8239: designer as translator, designer as performer, and designer as director&#8239».
+    </p>
+   
+
+    <h6> 
+      consulté le 9 novembre 2022  
+    </h6>
+  
+  </article>
+
+
+  <article class="filterDiv designers graphisme">
+    <h3>
+      BROSSEAU, Lise.  
+    </h3>
+
+    <h4>
+      <a href="https://revue-faire.eu/fr/produit/n13-une-proposition-curatoriale%E2%80%AF-graphic-design-in-the-white-cube-par-peter-bilak-auteure%E2%80%AF-lise-brosseau/" target="_blank" title="retrouve-le ici">
+        Une proposition curatoriale&#8239: Graphic Design in the White Cube par Peter Bil'ak,       
+      </a>
+    </h4> 
+    
+    <h5>
+      Revue Faire, n°13, 4 juillet 2018.
+    </h5>
+    
+    <blockquote cit="https://revue-faire.eu/fr/produit/n13-une-proposition-curatoriale%E2%80%AF-graphic-design-in-the-white-cube-par-peter-bilak-auteure%E2%80%AF-lise-brosseau/">le texte est, dès son origine, le lieu d'une révolution de l'accès au savoir, de la transmission, mais aussi de la discussion, de l'échange, de la mémoire, de la controverse et de l'intelligence collective. Utiliser l'écriture comme moyen pour penser le graphisme, c'est aussi penser un graphisme qui est capable de se penser</blockquote>
+    
+    <p> 
+      Dans ce numéro de la revue Faire, Lise Brosseau se consacre entièrement à l'analyse de la fameuse exposition de Peter Bil'ak «&#8239Graphic design in the White&#8239», conditions et attentes sont entièrement expliquées. À la base de cette exposition vient une envie de (&#8239re&#8239)questionner l'exposition du graphisme afin de s'émanciper du «&#8239white cube&#8239» au sein de la Biennale Brno. Peter Bil'ak engage donc 29 graphistes qu'il rémunère pour réaliser des affiches qui permettront l'auto-promotion de l'exposition ainsi que de devenir le sujet de l'exposition.
+    </p>
+   
+
+    <h6> 
+      lu le 9 novembre 2022  
+    </h6>
+  
+  </article>
 
 </section>
 
