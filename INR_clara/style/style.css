@@ -1,3 +1,8 @@
+@font-face{
+	font-family: "matrix";
+	src: url("typo/JournalItalic.otf");
+}
+
 body{
 	background-color: #fbe7e8;
 	cursor: crosshair;
@@ -37,8 +42,9 @@ aside a:hover{
 
 /*SPAN QUESTION*/
 #question{
+	font-family: matrix;
 	font-size: 1.5em;
-	line-height: 1.3em;
+	line-height: 1.1em;
 }
 
 /*TITRE*/
@@ -49,34 +55,15 @@ h2{
 	margin-bottom: 20px;
 }
 
-/*IMAGE DITHERED*/
-img{
-	margin-top: 20px;
-}
-
-/*FIGURE*/
-
-
-/*FIGCAPTION*/
-figcaption{
-	font-stretch: italic;
-	font-size: 0.9em;
-	width: 500px;
-}
-
 
 /*-----ARTICLE-----*/
-
-#entree-legende{
-	text-transform: uppercase;
-}
-
 /*grid with 6 columns*/
 article{
 	/*background-color: #f6c2bd;*/
 	font-family: 'arial';
 	line-height: 1.3em;
 	border-bottom: solid red 1px;
+	box-shadow: inset 0px -40px 1.9em -35px #ff4219;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
 	display: grid;
@@ -112,14 +99,42 @@ article:hover a:hover{
 color: #00bde6; /*couleur complémentaire du orange*/
 }
 
-article p{
-/*grid-column: 2 / 4;*/
-}
-
 /*CITATION*/
 blockquote{
-	font-family: 'arial';
+	font-family: matrix;
+	font-size: 1.3em;
+	line-height: 1.1em;
 }
+
+blockquote::before{
+	content: "«\202F";
+}
+
+blockquote::after{
+	content: "\202F»";
+}
+
+/*BEFORE (avant chaque h du bloque article*/
+article h3::before{
+	content: "✑ ";
+}
+
+article h4::before{
+	content: "◧ ";
+}
+
+article h5::before{
+	content: "⚯ ";
+}
+
+article p::before{
+	content: "⌲ ";
+}
+
+article h6::before{
+	content: "◴ ";
+}
+
 
 /*DATE*/
 h6{
@@ -127,10 +142,4 @@ h6{
 	line-height: 1.3em;
 }
 
-
-/*----FOOTER----*/
-footer{
-color: #ff4219;
-
-}
 
