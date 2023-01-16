@@ -107,9 +107,13 @@ article:hover a:hover{
 color: #00bde6; /*couleur complémentaire du orange*/
 }
 
+/*La ligne d'entrée du tableau*/
+
 #entree-tab{
 	height: 50px;
 	line-height: 80px;
+	box-shadow: none;
+	border-bottom: 1px solid black;
 }
 
 /*CITATION*/
