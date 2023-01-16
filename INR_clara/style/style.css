@@ -37,8 +37,17 @@ aside a:hover{
 	color:#00bde6;
 }
 
-/*SPAN INTRO*/
+/*FIGURE*/
+figure{
+	width: 500px;
+}
+figure img{
+	margin-top: 10px;	
+}
 
+figcaption a{
+	font-size: 0.9em;
+}
 
 /*SPAN QUESTION*/
 #question{
@@ -54,7 +63,6 @@ h2{
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-
 
 /*-----ARTICLE-----*/
 /*grid with 6 columns*/
@@ -99,6 +107,11 @@ article:hover a:hover{
 color: #00bde6; /*couleur complémentaire du orange*/
 }
 
+#entree-tab{
+	height: 50px;
+	line-height: 80px;
+}
+
 /*CITATION*/
 blockquote{
 	font-family: matrix;
@@ -113,28 +126,6 @@ blockquote::before{
 blockquote::after{
 	content: "\202F»";
 }
-
-/*BEFORE (avant chaque h du bloque article*/
-article h3::before{
-	content: "✑ ";
-}
-
-article h4::before{
-	content: "◧ ";
-}
-
-article h5::before{
-	content: "⚯ ";
-}
-
-article p::before{
-	content: "⌲ ";
-}
-
-article h6::before{
-	content: "◴ ";
-}
-
 
 /*DATE*/
 h6{
