@@ -168,15 +168,18 @@ aside{
 
 #number{
 /*	border: solid grey 2px;*/
-	padding-right: 10px;
-	
+	padding-right: 35px;
+	max-width: 10px;
+	float: left;
+	position: relative;
+	bottom: -8px;
 }
 
 #year{
 /*	border: solid blueviolet 1px;*/
 	float: right;
 	position: relative;
-	bottom: -10px;
+	bottom: -8px;
 }
 
 /*la boite qui contient tous les liens des projets*/
@@ -191,6 +194,7 @@ aside{
 .article-container article{
 /*	border: solid greenyellow 1px;*/
 	margin-bottom: 20px;
+	height: 25px;
 }
 
 .article-container a{
@@ -203,6 +207,7 @@ aside{
 /*	border: solid white 1px;*/
 	color: white;
 	font-family: 'punk';
+
 }
 
 /*
