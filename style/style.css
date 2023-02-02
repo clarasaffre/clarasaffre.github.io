@@ -1,12 +1,12 @@
 
 @font-face{
 	font-family: "helveticathin";
-	src: URL(typo/HelveticaNeue.otf);
+	src: URL(typo/Helveticaneue.otf);
 }
 
 @font-face{
 	font-family: "helveticaneue";
-	src: URL(typo/HelveticaNeue.ttc);
+	src: URL(typo/helveticaroman.otf);
 }
 
 @font-face{
