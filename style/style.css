@@ -1,0 +1,371 @@
+
+@font-face{
+	font-family: "helveticathin";
+	src: URL(typo/HelveticaNeue.otf);
+}
+
+@font-face{
+	font-family: "helveticaneue";
+	src: URL(typo/HelveticaNeue.ttc);
+}
+
+@font-face{
+	font-family: "punk";
+	src: URL(typo/jrug-punk.otf);
+}
+
+/*
+   ___     ___     ___   __   __                                         
+  | _ )   / _ \   |   \  \ \ / /                                         
+  | _ \  | (_) |  | |) |  \ V /                                          
+  |___/   \___/   |___/   _|_|_                                          
+_|"""""|_|"""""|_|"""""|_| """ |                                         
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' */
+body{
+	background: cyan;
+	font-family: 'helveticaneue';
+}
+
+/*
+   ___     ___    _  _    _____    ___     ___    _  _     ___     ___   
+  / __|   / _ \  | \| |  |_   _|  /   \   |_ _|  | \| |   | __|   | _ \  
+ | (__   | (_) | | .` |    | |    | - |    | |   | .` |   | _|    |   /  
+  \___|   \___/  |_|\_|   _|_|_   |_|_|   |___|  |_|\_|   |___|   |_|_\  
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| 
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
+*/
+
+.container-all{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background-color: white; 
+}
+
+/*
+  _  _     ___     ___     ___     ___     ___           
+ | || |   | __|   /   \   |   \   | __|   | _ \          
+ | __ |   | _|    | - |   | |) |  | _|    |   /          
+ |_||_|   |___|   |_|_|   |___/   |___|   |_|_\          
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|         
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'  
+*/
+header{
+/*	border: solid red 1px;*/
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	width: 100vw;
+  	height: 40px;
+  	position: fixed;
+
+}
+
+header article{
+/*	border: solid blue 1px;*/
+	padding: 10px;
+}
+
+header a{
+	text-decoration: none;
+}
+
+/*dans la barre nav, la partie info avec le prénom…*/
+.info{
+/*	border: solid black 1px;*/
+	color: white;
+}
+
+.info:visited{
+	color: white;
+}
+
+.info:hover{
+	color: rgba(255, 255, 255, 0.5);
+	transition: all 0.5s ease-out;
+}
+
+
+#header_music{
+	display: flex;
+	justify-content: end;
+}
+
+#cv, #portfolio, #mail, #linkedin, #link-music{
+	color: #FF4B08;
+	transition: all 0.5s ease-out;
+}
+
+#link-music{
+	color: white;
+}
+
+/*Quand je passe la souris sur l'ensemble de ces éléments*/
+
+#cv:hover, #portfolio:hover,#linkedin:hover, #link-music:hover{
+	color: rgba(255, 75, 8, 0.5);
+}
+
+
+
+
+#mail{
+	display: inline;
+}
+
+/*
+           
+    o O O 
+   o      
+  TS__[O] 
+ {======| 
+./o--000'  ___     ___     ___     ___     ___                                   
+  /   \   / __|   |_ _|   |   \   | __|     o O O                        
+  | - |   \__ \    | |    | |) |  | _|     o                             
+  |_|_|   |___/   |___|   |___/   |___|   TS__[O]                        
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|                        
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'./o--000'                        
+   ___     ___     ___    _____    ___     ___    _  _                   
+  / __|   | __|   / __|  |_   _|  |_ _|   / _ \  | \| |                  
+  \__ \   | _|   | (__     | |     | |   | (_) | | .` |                  
+  |___/   |___|   \___|   _|_|_   |___|   \___/  |_|\_|                  
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|                 
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
+*/
+
+/*le container qui contient le aside*/
+.aside-section{
+	display: flex;
+}
+
+
+/*
+   ___     ___     ___     ___     ___                   
+  /   \   / __|   |_ _|   |   \   | __|                  
+  | - |   \__ \    | |    | |) |  | _|                   
+  |_|_|   |___/   |___|   |___/   |___|                  
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|                 
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
+*/
+
+aside{
+/*	border: solid black 1px;*/
+	/*height: calc(100vh - 46px);*/
+	height: 98vh;
+	width: calc(100vw/3);
+	padding-top: 40px;
+	background-color: #FF4B08;
+	text-transform: uppercase;
+
+}
+
+/*petite capitales pour les chiffres dans les titres des projets*/
+.smallcap{
+	font-size: 0.7em;
+	color: white;
+	font-family: 'helveticathin';
+	font-style: italic;
+}
+
+#number{
+/*	border: solid grey 2px;*/
+	padding-right: 10px;
+	
+}
+
+#year{
+/*	border: solid blueviolet 1px;*/
+	float: right;
+	position: relative;
+	bottom: -10px;
+}
+
+/*la boite qui contient tous les liens des projets*/
+
+.article-container{
+/*	border: solid green 1px;*/
+	margin: 20px;
+	font-size: 2em;
+	color: white;
+}
+
+.article-container article{
+/*	border: solid greenyellow 1px;*/
+	margin-bottom: 20px;
+}
+
+.article-container a{
+/*	border: solid white 1px;*/
+	color: white;
+	text-decoration: none;
+}
+
+.article-container a:hover{
+/*	border: solid white 1px;*/
+	color: white;
+	font-family: 'punk';
+}
+
+/*
+    ___    ___     ___   __   __   ___     ___  __      __
+   | _ \  | _ \   | __|  \ \ / /  |_ _|   | __| \ \    / /
+   |  _/  |   /   | _|    \ V /    | |    | _|   \ \/\/ / 
+  _|_|_   |_|_\   |___|   _\_/_   |___|   |___|   \_/\_/  
+_| """ |_|"""""|_|"""""|_| """"|_|"""""|_|"""""|_|"""""|  
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
+*/
+
+.projet:hover .hover-image{
+	visibility: visible;
+}
+
+.projet .hover-image{
+	visibility: hidden;
+}
+
+
+.hover-image{
+/*	border: solid black 1px;*/
+	height: 700px;
+	width: 700px;
+	position: fixed;
+	right: calc(100vw/3 - 700px/2);
+	bottom: calc(100vh/2 - 700px/2);
+	z-index: 300;
+	display: flex;
+	justify-content: center;
+}
+
+.hover-image img{
+	width: 100%;
+	margin: auto;
+
+}
+
+/*
+   ___     ___     ___    _____    ___     ___    _  _   
+  / __|   | __|   / __|  |_   _|  |_ _|   / _ \  | \| |  
+  \__ \   | _|   | (__     | |     | |   | (_) | | .` |  
+  |___/   |___|   \___|   _|_|_   |___|   \___/  |_|\_|  
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""| 
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
+*/
+
+/*container des textes et photos de projet*/
+.container-view{
+/*	border: solid magenta 1px;*/
+	height: 100vh;
+	width: calc(100vw/3*2);
+	display: flex;
+
+}
+
+.container-index{
+	width: calc(100vw/3*2);
+	display: flex;
+	flex-wrap: wrap; /*oh my fucking god, ça permet de transformer un display: flex horizontak en display flex vertical :O*/
+	align-content: space-between;
+}
+
+/*boite dans le container où y'a du texte*/
+
+#index-message{
+/*	border: solid cyan 3px;*/
+	padding: 50px 20px;
+	height: 500px;
+	text-transform: uppercase;
+	font-family: 'punk';
+	font-size: 4.5em;
+	color: #FF4B08;
+	align-content: space-between;
+}
+
+#wip{
+/*	border: solid black 1px;*/
+	margin: auto;
+	width: 800px;
+
+}
+
+.wip-texte{
+/*	border: solid purple 1px;*/
+	width: calc(100vw/3*2);
+	display: flex;
+	justify-content: center;
+	color: #FF4B08;
+	height: 100%;
+}
+
+#wip-texte{
+	text-transform: uppercase;
+	font-size: 2em;
+	font-family: 'punk';
+}
+
+/*
+   ___     ___    _____   _____    ___   __  __          
+  | _ )   / _ \  |_   _| |_   _|  / _ \ |  \/  |         
+  | _ \  | (_) |   | |     | |   | (_) || |\/| |         
+  |___/   \___/   _|_|_   _|_|_   \___/ |_|__|_|         
+_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|         
+"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'  
+*/
+
+/*toute la partie du bas de la page avec la footer et les 
+sites des amis*/
+.bottom{
+/*	border: solid purple 1px;*/
+	width: calc(100vw/3*2);
+	display: flex;
+	justify-content: space-between;
+	color: #FF4B08;
+
+}
+
+footer{
+/*	border: solid rosybrown;*/
+	width: 300px;
+	margin: 10px;
+}
+
+
+footer a{
+	color: #FF4B08;
+	text-decoration: none;
+	transition: all 0.5s ease-out;
+}
+
+footer a:hover{
+	color: rgba(255, 75, 8, 0.5);
+}
+
+#amixs{
+/*	border: solid pink 1px;*/
+	text-align: right;
+	font-family: 'helveticaneue';
+	margin: 10px;
+	color: #FF4B08;
+	width: 300px;
+}
+
+#amixs a{
+	color: #FF4B08;
+	text-decoration: none;
+	transition: all 0.5s ease-out;
+}	
+
+#amixs a:hover{
+	color: rgba(255, 75, 8, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
