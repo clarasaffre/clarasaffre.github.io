@@ -3,18 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Clara Saffre étudiante en design graphique, print et numérique">
 	<title>Clara Saffre</title>
 	<link rel="stylesheet" type="text/css" href="style/reset.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="icon" type="image/x-icon" href="import/favicon.ico">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 
 </head>
 
 <body>
+	<!-- le gros container (celui qui est direct après le body) -->
 	<div class="container-all">
 		<header>
 			<article>
-				<a href="#" class="info">CLARA SAFFRE,
+				<a href="index.html" class="info">CLARA SAFFRE,
 				</a> 
 				<a href="https://dnmade-prevert.fr" class="info" target="blank">DN MADE graphisme augmenté</a>
 			</article>
@@ -29,12 +32,13 @@
 			</article>
 		</header>
 
+		<!-- partie nav sur l'aside avec les noms de projets -->
 		<div class="aside-section">
 
 			<aside>
 				<div class="article-container">
 					<article>
-						<a href="memoire.html" class="projet" id="un">
+						<a href="enconstruction.html" class="projet" id="un">
 							<span class="smallcap" id="number">
 								0.1 
 							</span>
@@ -43,7 +47,7 @@
 								2023
 							</span>
 							<div class="hover-image">
-								<img src="import/previews-memoire.jpg" alt="preview projet mémoire">
+								<!-- <img src="import/previews-memoire.jpg" alt="preview projet mémoire"> -->
 							</div>
 						</a>
 						
@@ -83,7 +87,7 @@
 								2022
 							</span>
 							<div class="hover-image">
-								<img src="import/previews-ifyougoaway.jpg" alt="preview projet if you go away">
+								<!-- <img src="import/previews-ifyougoaway.jpg" alt="preview projet if you go away"> -->
 							</div>
 						</a>
 					</article>
@@ -98,7 +102,7 @@
 								2022
 							</span>
 							<div class="hover-image">
-								<img src="import/previews-zugzwang.jpg" alt="preview projet méta-mort-fausse">
+								<!-- <img src="import/previews-zugzwang.jpg" alt="preview projet méta-mort-fausse"> -->
 							</div>
 						</a>
 					</article>
@@ -113,7 +117,7 @@
 								2022
 							</span>
 							<div class="hover-image">
-								<img src="import/previews-ornementa.jpg" alt="preview projet ornementa">
+								<!-- <img src="import/previews-ornementa.jpg" alt="preview projet ornementa"> -->
 							</div>
 						</a>
 					</article>
@@ -128,7 +132,7 @@
 								2021
 							</span>
 							<div class="hover-image">
-								<img src="import/previews-processing.jpg" alt="preview projet processing">
+								<!-- <img src="import/previews-processing.jpg" alt="preview projet processing"> -->
 							</div>
 						</a>
 					</article>
@@ -143,7 +147,7 @@
 								2021
 							</span>
 							<div class="hover-image">
-								<img src="import/previews-perceneige.jpg" alt="preview projet perce-neige">
+								<!-- <img src="import/previews-perceneige.jpg" alt="preview projet perce-neige"> -->
 							</div>
 						</a>
 					</article>
@@ -153,33 +157,50 @@
 
 			<section class="container-view">
 				<article class="container-index">
-					<h1 id="index-message">
-						What inspired me&#8239?</br>
-						Experimentation • Print • Digital • Edition • Mixed Media • 90s • Rock • Contemporary art • Graphic Novel • Drawings • Tomato pasta • Bo Bun • Cute animals • Orange.
-					</h1>
+					<!-- Swiper -->
+				  <div class="swiper mySwiper">
+				    <div class="swiper-wrapper">
+				      <div class="swiper-slide"><img src="import/memoire-1.jpg"></img></div>
+				      <div class="swiper-slide"><img src="import/memoire-2.jpg"></img></div>
+				      <div class="swiper-slide"><img src="import/memoire-4.jpg"></img><</div>
+				    </div>
+				    <div class="swiper-button-next"></div>
+				    <div class="swiper-button-prev"></div>
+				    <div class="swiper-pagination"></div>
+				  </div>
 
-					<section class="bottom">
-						<footer>
-							<p>
-								2023, html, css, Clara Saffre</br>
-								<a href="https://usemodify.com/fonts/jrug-punk/" target="blank">JRUG PUNK</a>
-
-								</br>
-								<a href="https://fontsgeek.com/helvetica-neue-lt-std-font" target="blank"> Helvetica Neue LT STD
-							</p>
-						</footer>
-
-						<h2 id="amixs">
-							Mes amixs&#8239:</br>
-							<a href="#">Am</a>, <a href="https://aurelienmaufroid.fr">Aurélien</a>, <a href="#">Marine</a>,</br> <a href="#">Marion</a>, <a href="http://yassminetissaoui.cf/index.html">Yassmine</a>
-						</h2>
-					</section>
 				</article>
-
 			</section>
 
 		</div>
 
 	</div>
+	<section class="bottom">
+		<article class="explications">
+			<p>
+				Ce mémoire questionne la relation qu'entretient le graphisme et l'art contemporain par le biais de l'exposition de graphisme. Ma problématique est la suivante&#8239: «&#8239Dans quelle mesure l'exposition peut-elle devenir un support pour permettre d'accéder à la critique du graphiste&#8239?&#8239»
+
+
+			</p>
+		</article>
+	</section>
+
+	<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+    	loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "navigation",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 </html>
