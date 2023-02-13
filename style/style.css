@@ -411,7 +411,8 @@ footer a:hover{
 	left: calc(100vw/3 + 20px);
 	color: white;
 	mix-blend-mode: difference;
-	font-family:'helveticathin' ;
+	font-family:'helveticathin';
+	padding-top: 5px;
 /*	text-align: justify;*/
 }
 
