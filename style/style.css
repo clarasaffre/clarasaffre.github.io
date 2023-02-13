@@ -412,11 +412,12 @@ footer a:hover{
 	color: white;
 	mix-blend-mode: difference;
 	font-family:'helveticathin' ;
-	box-sizing: border-box;
 /*	text-align: justify;*/
 }
 
-
+.link-explications{
+	color: white;
+}
 
 
 
