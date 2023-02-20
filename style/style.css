@@ -405,15 +405,18 @@ footer a:hover{
 
 .explications{
 /*	border: 1px solid white;*/
-	width: calc(100vw/3 - 35px);
+	border-top: 1px solid white;
+	width: calc(100vw/3 - 42.5px);
+	line-height: 1.3rem;
 	position: absolute;
 	z-index: 1;
 	bottom: 20px;
-	left: calc(100vw/3 + 20px);
+	/*left: calc(100vw/3 + 20px);*/
+	left: 20px;
 	color: white;
-	mix-blend-mode: difference;
+/*	mix-blend-mode: difference;*/
 	font-family:'helveticathin';
-	padding-top: 5px;
+	padding-top: 10px;
 /*	text-align: justify;*/
 }
 
